@@ -5,6 +5,7 @@ using TMPro;
 public class DialogueManager : MonoBehaviour
 {
     private DialogueSO currentConversation;
+    private bool currentIsAutomatic;
     private int stepNum;
     private bool dialogueActivated;
 
@@ -19,6 +20,8 @@ public class DialogueManager : MonoBehaviour
     private string currentSpeaker;
     private Sprite currentPortrait;
 
+    private PlayerMovement playerMovement;
+
     // Button references
     [SerializeField] GameObject[] optionButton;
     [SerializeField] TMP_Text[] optionButtonText;
@@ -29,6 +32,8 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueCanvas.SetActive(false);
 
+        playerMovement = FindFirstObjectByType<PlayerMovement>();
+
         for (int i = 0; i < optionButton.Length; i++)
         {
             optionButton[i].SetActive(false);
@@ -38,14 +43,18 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (dialogueActivated && InputManager.interactAction.WasPressedThisFrame())
+        if (dialogueActivated && ((currentIsAutomatic && stepNum == 0) || InputManager.interactAction.WasPressedThisFrame()))
         {
             if (stepNum >= currentConversation.speakers.Length)
             {
                 TurnOffDialogue();
+                Time.timeScale = 1;
+                playerMovement.enabled = true;
             }
             else
             {
+                playerMovement.enabled = false;
+                Time.timeScale = 0;
                 PlayDialogue();
             }
         }
@@ -118,6 +127,7 @@ public class DialogueManager : MonoBehaviour
     public void InitiateDialogue(NPCDialogue npcDialogue)
     {
         currentConversation = npcDialogue.conversation[0];
+        currentIsAutomatic = npcDialogue.isAutomatic;
         dialogueActivated = true;
     }
 
@@ -134,6 +144,9 @@ public enum DialogueSpeakers
 {
     Finnley,
     Dentist,
+    Shark_Mark,
+    Shark_Joe,
+    Shark_Lori,
     Random,
     Branch
 };

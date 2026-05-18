@@ -6,6 +6,8 @@ using UnityEngine;
 public class NPCDialogue : MonoBehaviour
 {
     public DialogueSO[] conversation;
+    public bool shouldFlip;
+    public bool isAutomatic;
     private Transform player;
     private SpriteRenderer speechBubbleRenderer;
     private DialogueManager dialogueManager;
@@ -28,11 +30,11 @@ public class NPCDialogue : MonoBehaviour
             speechBubbleRenderer.enabled = true;
             player = collider.gameObject.GetComponent<Transform>();
 
-            if (player.position.x > transform.position.x && transform.parent.localScale.x < 0)
+            if (shouldFlip && player.position.x > transform.position.x && transform.parent.localScale.x < 0)
             {
                 Flip();
             }
-            else if (player.position.x < transform.position.x && transform.parent.localScale.x > 0)
+            else if (shouldFlip && player.position.x < transform.position.x && transform.parent.localScale.x > 0)
             {
                 Flip();
             }

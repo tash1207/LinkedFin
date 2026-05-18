@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38989b43b1e684fbbb8e79ec001b0324, type: 3}
+  m_Name: SharkTankPitch
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  speakers: 0000000000000000030000000000000000000000020000000400000000000000040000000300000000000000
+  randomSpeakerName: 
+  randomSpeakerPortrait: {fileID: 0}
+  dialogue:
+  - "Hi Sharks, I\u2019m Finnley, creator of LinkedFin and I\u2019m seeking 100,000
+    sand dollars for a 10% equity stake in my company."
+  - LinkedFin is a professional networking app that allows businesses and recruiters
+    to easily connect with talent.
+  - "Isn\u2019t that what everyone is doing right now at this conference?"
+  - "Well yes, but it\u2019s much easier to get your resume out to multiple companies
+    on your phone than to wait in line at every booth here."
+  - And on LinkedFin you can keep your profile up to date with your latest resume
+    and headshot.
+  - "Juveniles and pups can friend each other and trade pictures on social networks
+    - you want grownup professionals to friend each other over the web? That\u2019ll
+    never work. I\u2019m out."
+  - "What\u2019s your current user base?"
+  - "Well right now it\u2019s just me and some of my fellow business school alum."
+  - "I\u2019ll need to see some traction before I could even think to invest. I\u2019m
+    out."
+  - "Sorry Finnley, I just don\u2019t see how your app could ever replace ReefCon.
+    Thanks for coming in today."
+  - Thank you, sharks.
+  options: []
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
