@@ -124,10 +124,10 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void InitiateDialogue(NPCDialogue npcDialogue)
+    public void InitiateDialogue(DialogueSO npcConversation)
     {
-        currentConversation = npcDialogue.conversation[0];
-        currentIsAutomatic = npcDialogue.isAutomatic;
+        currentConversation = npcConversation;
+        currentIsAutomatic = currentConversation.isAutomatic;
         dialogueActivated = true;
     }
 

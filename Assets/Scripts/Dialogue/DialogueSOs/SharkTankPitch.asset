@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38989b43b1e684fbbb8e79ec001b0324, type: 3}
   m_Name: SharkTankPitch
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  isAutomatic: 1
+  isOneTime: 1
   speakers: 0000000000000000030000000000000000000000020000000400000000000000040000000300000000000000
   randomSpeakerName: 
   randomSpeakerPortrait: {fileID: 0}

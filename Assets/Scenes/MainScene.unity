@@ -1259,8 +1259,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   conversation:
   - {fileID: 11400000, guid: 5daea5a9d87f1468e8b577ea31aab15f, type: 2}
+  - {fileID: 11400000, guid: f2dc2a7cf1d0c4cb399b96c6df419b64, type: 2}
+  convNum: 0
   shouldFlip: 0
-  isAutomatic: 1
 --- !u!1 &1163026289 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3672759679311160020, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
@@ -1294,9 +1295,9 @@ Transform:
   m_GameObject: {fileID: 1471660107}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.26, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.45, z: 0.9}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 0, y: 1.25, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 63725649}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1349,12 +1350,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -9096264168774889045, guid: fb48a700ab9f04cf4abdea7a2164f3cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.25, y: 0.2900988}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1373,8 +1374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
   conversation:
   - {fileID: 11400000, guid: e9d9424d872ff4550b6b4caa55e0ebbd, type: 2}
+  - {fileID: 11400000, guid: 969725b9006b048a58004810ffee030b, type: 2}
+  convNum: 0
   shouldFlip: 1
-  isAutomatic: 0
 --- !u!61 &1471660111
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1413,8 +1415,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 1.2592592, y: 0.6960043}
+    newSize: {x: 0.25, y: 0.2900988}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -1463,6 +1465,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1668746737}
+  - component: {fileID: 1668746738}
   m_Layer: 0
   m_Name: SharkTank
   m_TagString: Untagged
@@ -1489,6 +1492,52 @@ Transform:
   - {fileID: 1032353883}
   m_Father: {fileID: 1482124266}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1668746738
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668746736}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.46360326, y: -0.13459444}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 6.413688, y: 3.1834211}
+  m_EdgeRadius: 0
 --- !u!1 &1672644519
 GameObject:
   m_ObjectHideFlags: 0

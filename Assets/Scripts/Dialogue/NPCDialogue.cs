@@ -1,13 +1,10 @@
-using System;
-using UnityEditor.Search;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class NPCDialogue : MonoBehaviour
 {
     public DialogueSO[] conversation;
+    public int convNum;
     public bool shouldFlip;
-    public bool isAutomatic;
     private Transform player;
     private SpriteRenderer speechBubbleRenderer;
     private DialogueManager dialogueManager;
@@ -22,6 +19,13 @@ public class NPCDialogue : MonoBehaviour
         speechBubbleRenderer = GetComponent<SpriteRenderer>();
         speechBubbleRenderer.enabled = false;
     }
+
+    public DialogueSO GetCurrentConversation()
+    {
+        return conversation[convNum];
+    }
+
+    // TODO: Check for new conversation.
 
     private void OnTriggerStay2D(Collider2D collider)
     {
@@ -39,8 +43,12 @@ public class NPCDialogue : MonoBehaviour
                 Flip();
             }
 
-            dialogueManager.InitiateDialogue(this);
+            dialogueManager.InitiateDialogue(GetCurrentConversation());
             dialogueInitiated = true;
+            if (conversation[convNum].isOneTime)
+            {
+                convNum += 1;
+            }
         }
     }
 
