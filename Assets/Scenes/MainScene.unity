@@ -119,6 +119,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &62952173 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8295987187975374798, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
+  m_PrefabInstance: {fileID: 6495093719187644558}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &63725648
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,17 +304,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &375403796 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 236713202145296832, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-  m_PrefabInstance: {fileID: 6495093719187644558}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!114 &397261357 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8037808125165349097, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
@@ -975,7 +975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
   dialogueCanvas: {fileID: 560018964}
   speakerName: {fileID: 235325221}
-  portrait: {fileID: 375403796}
+  portrait: {fileID: 62952173}
   dialogueText: {fileID: 397261357}
   speakerSO:
   - {fileID: 11400000, guid: f32ae5e70e6774f28a530044ed7b666b, type: 2}
@@ -1202,22 +1202,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 749653832750973616, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 749653832750973616, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 749653832750973616, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 1595
-      objectReference: {fileID: 0}
-    - target: {fileID: 749653832750973616, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -40
-      objectReference: {fileID: 0}
     - target: {fileID: 1050839906567445663, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1298,22 +1282,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3656537330982423914, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3656537330982423914, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3656537330982423914, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 1140
-      objectReference: {fileID: 0}
-    - target: {fileID: 3656537330982423914, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -40
-      objectReference: {fileID: 0}
     - target: {fileID: 6668549310941984790, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
       propertyPath: m_Name
       value: DialogueCanvas
@@ -1321,38 +1289,6 @@ PrefabInstance:
     - target: {fileID: 6668549310941984790, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8554357027362107611, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8554357027362107611, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8554357027362107611, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 685
-      objectReference: {fileID: 0}
-    - target: {fileID: 8554357027362107611, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -40
-      objectReference: {fileID: 0}
-    - target: {fileID: 8796506195336303559, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8796506195336303559, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8796506195336303559, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 230
-      objectReference: {fileID: 0}
-    - target: {fileID: 8796506195336303559, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
