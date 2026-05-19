@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: b8655a26f1e2d40a5ba5c1ee5886eb6c
+guid: de5fab7e414b54a2f9ccde8c1c394792
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6067201988481861115
-    second: MC Finnley_0
-  - first:
-      213: -8727334983158043405
-    second: MC Finnley_1
-  - first:
-      213: 924612339405352986
-    second: MC Finnley_2
-  - first:
-      213: 1126403274356128415
-    second: MC Finnley_3
+      213: 4841084254804887997
+    second: LinkedFin_temp_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 378
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MC Finnley_0
+      name: LinkedFin_temp_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 478
-        width: 588
-        height: 821
+        x: 0
+        y: 0
+        width: 978
+        height: 296
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,96 +128,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50abef7dfe7fccba0800000000000000
-      internalID: -6067201988481861115
+      spriteID: db9c1670b7cfe2340800000000000000
+      internalID: 4841084254804887997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC Finnley_1
+      name: LinkedFin_temp_1
       rect:
         serializedVersion: 2
-        x: 670
-        y: 478
-        width: 588
-        height: 821
+        x: 710
+        y: 14
+        width: 247
+        height: 238
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3fc660d721742e680800000000000000
-      internalID: -8727334983158043405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC Finnley_2
-      rect:
-        serializedVersion: 2
-        x: 1324
-        y: 460
-        width: 441
-        height: 851
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a10f23d1602e4dc00800000000000000
-      internalID: 924612339405352986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC Finnley_3
-      rect:
-        serializedVersion: 2
-        x: 1894
-        y: 460
-        width: 442
-        height: 851
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9a75d16fc9c1af00800000000000000
-      internalID: 1126403274356128415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: portrait
-      rect:
-        serializedVersion: 2
-        x: 1314
-        y: 855
-        width: 460
-        height: 460
-      alignment: 0
-      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 986fb30632edc49379d243d09fef8c3b
-      internalID: -1373852340
+      spriteID: a8846bf5c08664ff8aaf2361e1ec5d18
+      internalID: 1794780568
       vertices: []
       indices: 
       edges: []
@@ -235,7 +160,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5425f2ef255064ae2a5d5606584b2ff3
+    spriteID: 38416146b01794e9c8d2a07f3cd0cd21
     internalID: 0
     vertices: []
     indices: 
@@ -243,13 +168,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":489.0,"y":296.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      MC Finnley_0: -6067201988481861115
-      MC Finnley_1: -8727334983158043405
-      MC Finnley_2: 924612339405352986
-      MC Finnley_3: 1126403274356128415
-      portrait: -1373852340
+      LinkedFin_temp_0: 4841084254804887997
+      LinkedFin_temp_1: 1794780568
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

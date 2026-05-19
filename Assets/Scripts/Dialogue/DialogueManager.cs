@@ -50,10 +50,12 @@ public class DialogueManager : MonoBehaviour
                 TurnOffDialogue();
                 Time.timeScale = 1;
                 playerMovement.enabled = true;
+                HUDManager.Instance.showHUD();
             }
             else
             {
                 playerMovement.enabled = false;
+                HUDManager.Instance.hideHUD();
                 Time.timeScale = 0;
                 PlayDialogue();
             }
