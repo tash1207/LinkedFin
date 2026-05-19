@@ -17,15 +17,14 @@ MonoBehaviour:
   speakers: 0100000001000000000000000100000000000000010000000100000001000000
   dialogue:
   - Hi there! I'm Dr. Wrasse, welcome to My Shiny Teeth and Me!
-  - Would you like a cleaning or whitening before you pitch to the sharks? A bright
+  - Would you like a cleaning or whitening before your pitch to the sharks? A bright
     smile makes the best first impression!
-  - I already pitched my idea and they laughed at me.
-  - "Aww I\u2019m sorry kid. What\u2019s the idea?"
+  - I already pitched my idea... and they laughed at me.
+  - "Aww, I\u2019m sorry kid. What\u2019s the idea?"
   - "It\u2019s an app that helps businesses connect with talent. It's called LinkedFin."
   - 'Oh, that sounds useful! '
-  - "I\u2019ve been looking to expand my business with an xray technician but I don\u2019t
-    have time to recruit while I\u2019m at ReefCon because I\u2019m too busy working
-    the dentist chair."
+  - "I\u2019ve been looking to hire an xray technician but I don\u2019t have time
+    to recruit at ReefCon because I\u2019m too busy working the dentist chair."
   - I'll download your app!
   options: []
   option0: {fileID: 0}
