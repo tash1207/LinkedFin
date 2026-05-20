@@ -14,6 +14,7 @@ public class LinkedFinApp : MonoBehaviour
     private PlayerMovement playerMovement;
 
     public static LinkedFinApp Instance;
+    public bool isAvailable;
 
     void Awake()
     {
@@ -34,11 +35,24 @@ public class LinkedFinApp : MonoBehaviour
     void OnEnable()
     {
         Actions.OnConnectionMade += AddConnection;
+        Actions.ToggleFinApp += ToggleApp;
     }
 
     void OnDisable()
     {
         Actions.OnConnectionMade -= AddConnection;
+        Actions.ToggleFinApp += ToggleApp;
+    }
+
+    public void ToggleApp()
+    {
+        if (isAvailable)
+        {
+            if (appCanvas.activeSelf)
+                HideApp();
+            else
+                ShowApp();
+        }
     }
     
     public void ShowApp()
@@ -61,12 +75,6 @@ public class LinkedFinApp : MonoBehaviour
     public void InitializeAppUI()
     {
         yourConnectionsText.text = "Your Connections (" + connections.Count + ")";
-        // foreach (var connSO in connections)
-        // {
-        //     // FIX!! Only add if new.
-        //     GameObject newConn = Instantiate(connectionProfilePrefab, connectionsListParent);
-        //     newConn.GetComponent<ConnectionProfile>().SetInfo(connSO);
-        // }
     }
 
     public void AddConnection(ConnectionSO connectionSO)

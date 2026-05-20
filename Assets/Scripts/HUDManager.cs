@@ -22,13 +22,16 @@ public class HUDManager : MonoBehaviour
     public void showHUD()
     {
         hudCanvas.SetActive(true);
+        LinkedFinApp.Instance.isAvailable = true;
     }
 
     public void hideHUD()
     {
         hudCanvas.SetActive(false);
+        LinkedFinApp.Instance.isAvailable = false;
     }
 
+    // Not currently used.
     public void disableHUD()
     {
         linkedFinButton.enabled = false;
