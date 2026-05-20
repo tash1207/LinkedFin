@@ -47,5 +47,8 @@ TagManager:
   - name: Character
     uniqueID: 4277182743
     locked: 0
+  - name: Speech Bubble
+    uniqueID: 653293035
+    locked: 0
   m_RenderingLayers:
   - Default

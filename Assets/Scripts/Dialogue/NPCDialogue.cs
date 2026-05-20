@@ -34,11 +34,11 @@ public class NPCDialogue : MonoBehaviour
             speechBubbleRenderer.enabled = true;
             player = collider.gameObject.GetComponent<Transform>();
 
-            if (shouldFlip && player.position.x > transform.position.x && transform.parent.localScale.x < 0)
+            if (shouldFlip && player.position.x > transform.position.x && GetSpriteObject().localScale.x < 0)
             {
                 Flip();
             }
-            else if (shouldFlip && player.position.x < transform.position.x && transform.parent.localScale.x > 0)
+            else if (shouldFlip && player.position.x < transform.position.x && GetSpriteObject().localScale.x > 0)
             {
                 Flip();
             }
@@ -50,6 +50,11 @@ public class NPCDialogue : MonoBehaviour
                 convNum += 1;
             }
         }
+    }
+
+    private Transform GetSpriteObject()
+    {
+        return transform.parent.GetChild(0);
     }
 
     private void OnTriggerExit2D(Collider2D collider)
@@ -64,8 +69,8 @@ public class NPCDialogue : MonoBehaviour
 
     void Flip()
     {
-        Vector3 currentScale = transform.parent.localScale;
+        Vector3 currentScale = GetSpriteObject().localScale;
         currentScale.x *= -1;
-        transform.parent.localScale = currentScale;
+        GetSpriteObject().localScale = currentScale;
     }
 }
