@@ -62,7 +62,6 @@ public class NPCDialogue : MonoBehaviour
         if (collider.gameObject.tag == "Player")
         {
             speechBubbleRenderer.enabled = false;
-            dialogueManager.TurnOffDialogue();
             dialogueInitiated = false;
         }
     }

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [CreateAssetMenu]
@@ -18,6 +19,9 @@ public class DialogueSO : ScriptableObject
     public DialogueSO option1;
     public DialogueSO option2;
     public DialogueSO option3;
+
+    [Header("Conversation Outcomes")]
+    public DialogueAction actionToFire;
 
     [Header("Conditional Requirements (Optional)")]
     public SpeakerSO[] requiredNPCs;

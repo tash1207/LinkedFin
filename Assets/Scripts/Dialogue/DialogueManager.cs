@@ -135,6 +135,10 @@ public class DialogueManager : MonoBehaviour
 
     public void TurnOffDialogue()
     {
+        if (currentConversation.actionToFire)
+        {
+            currentConversation.actionToFire.ExecuteAction();
+        }
         stepNum = 0;
         dialogueActivated = false;
         optionsPanel.SetActive(true);
