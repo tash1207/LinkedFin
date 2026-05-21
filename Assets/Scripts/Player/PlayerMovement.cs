@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     private const string lookX = "LookX";
     private const string lookY = "LookY";
 
+    public bool isPaused;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,6 +24,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isPaused)
+        {
+            return;
+        }
+
         movement.Set(InputManager.Movement.x, InputManager.Movement.y);
         rb2d.linearVelocity = movement * moveSpeed;
 

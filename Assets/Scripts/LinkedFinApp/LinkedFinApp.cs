@@ -62,14 +62,14 @@ public class LinkedFinApp : MonoBehaviour
         // TODO: Put this in a pause game helper script.
         // Same with DialogueManager.
         Time.timeScale = 0;
-        playerMovement.enabled = false;
+        playerMovement.isPaused = true;
     }
 
     public void HideApp()
     {
         appCanvas.SetActive(false);
         Time.timeScale = 1;
-        playerMovement.enabled = true;
+        playerMovement.isPaused = false;
     }
 
     public void InitializeAppUI()

@@ -49,12 +49,12 @@ public class DialogueManager : MonoBehaviour
             {
                 TurnOffDialogue();
                 Time.timeScale = 1;
-                playerMovement.enabled = true;
+                playerMovement.isPaused = false;
                 HUDManager.Instance.showHUD();
             }
             else
             {
-                playerMovement.enabled = false;
+                playerMovement.isPaused = true;
                 HUDManager.Instance.hideHUD();
                 Time.timeScale = 0;
                 PlayDialogue();
