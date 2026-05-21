@@ -13,10 +13,7 @@ MonoBehaviour:
   m_Name: SharkTank1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  isOneTime: 0
   speakers: 02000000
-  randomSpeakerName: 
-  randomSpeakerPortrait: {fileID: 0}
   dialogue:
   - We've already heard your pitch.
   options: []
@@ -24,3 +21,7 @@ MonoBehaviour:
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
+  actionsToFire: []
+  requiredNPCs: []
+  randomSpeakerName: 
+  randomSpeakerPortrait: {fileID: 0}

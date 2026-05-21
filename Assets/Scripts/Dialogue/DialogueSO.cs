@@ -5,7 +5,6 @@ using UnityEngine;
 public class DialogueSO : ScriptableObject
 {
     public bool isAutomatic;
-    public bool isOneTime;
     public DialogueSpeakers[] speakers;
 
     [Header("Dialogue")]
@@ -21,7 +20,7 @@ public class DialogueSO : ScriptableObject
     public DialogueSO option3;
 
     [Header("Conversation Outcomes")]
-    public DialogueAction actionToFire;
+    public DialogueAction[] actionsToFire;
 
     [Header("Conditional Requirements (Optional)")]
     public SpeakerSO[] requiredNPCs;

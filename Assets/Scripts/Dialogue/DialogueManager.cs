@@ -135,9 +135,12 @@ public class DialogueManager : MonoBehaviour
 
     public void TurnOffDialogue()
     {
-        if (currentConversation.actionToFire)
+        if (currentConversation.actionsToFire.Length > 0)
         {
-            currentConversation.actionToFire.ExecuteAction();
+            foreach (var actionToFire in currentConversation.actionsToFire)
+            {
+                actionToFire.ExecuteAction();
+            }
         }
         stepNum = 0;
         dialogueActivated = false;

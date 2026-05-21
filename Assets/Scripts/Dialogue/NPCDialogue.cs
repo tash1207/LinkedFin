@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class NPCDialogue : MonoBehaviour
 {
+    public SpeakerSO speakerSOIdentifier;
     public DialogueSO[] conversation;
     public int convNum;
     public bool shouldFlip;
@@ -20,12 +21,20 @@ public class NPCDialogue : MonoBehaviour
         speechBubbleRenderer.enabled = false;
     }
 
+    void OnEnable()
+    {
+        Actions.SetDialogStep += SetCurrentDialogue;
+    }
+
+    void OnDisable()
+    {
+        Actions.SetDialogStep += SetCurrentDialogue;
+    }
+
     public DialogueSO GetCurrentConversation()
     {
         return conversation[convNum];
     }
-
-    // TODO: Check for new conversation.
 
     private void OnTriggerStay2D(Collider2D collider)
     {
@@ -45,9 +54,27 @@ public class NPCDialogue : MonoBehaviour
 
             dialogueManager.InitiateDialogue(GetCurrentConversation());
             dialogueInitiated = true;
-            if (conversation[convNum].isOneTime)
+        }
+    }
+
+    public void SetCurrentDialogue(SpeakerSO speakerSO, DialogueSO dialogueSO)
+    {
+        if (speakerSO != speakerSOIdentifier)
+        {
+            return;
+        }
+
+        // If no explicit dialogue is given, advance to the next.
+        if (!dialogueSO)
+        {
+            convNum += 1;
+        }
+
+        for (int i = 0; i < conversation.Length; i++)
+        {
+            if (conversation[i] == dialogueSO)
             {
-                convNum += 1;
+                convNum = i;
             }
         }
     }

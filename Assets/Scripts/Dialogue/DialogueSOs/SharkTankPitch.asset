@@ -13,10 +13,7 @@ MonoBehaviour:
   m_Name: SharkTankPitch
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 1
-  isOneTime: 1
   speakers: 0000000000000000030000000000000000000000020000000400000000000000040000000300000000000000
-  randomSpeakerName: 
-  randomSpeakerPortrait: {fileID: 0}
   dialogue:
   - "Hi Sharks, I\u2019m Finnley, creator of LinkedFin and I\u2019m seeking 100,000
     sand dollars for a 10% equity stake in my company."
@@ -42,3 +39,8 @@ MonoBehaviour:
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
+  actionsToFire:
+  - {fileID: 11400000, guid: a5d884066787b42db8e2abe303d7b0b0, type: 2}
+  requiredNPCs: []
+  randomSpeakerName: 
+  randomSpeakerPortrait: {fileID: 0}

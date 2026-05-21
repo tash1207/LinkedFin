@@ -7,6 +7,6 @@ public class AddConnectionAction : DialogueAction
     public override void ExecuteAction()
     {
         Actions.OnConnectionMade(connectionSO);
-        Debug.Log($"Connected with {connectionSO.name}!");
+        Debug.Log($"Connected with {connectionSO.connName}!");
     }
 }

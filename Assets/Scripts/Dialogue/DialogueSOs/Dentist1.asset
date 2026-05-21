@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Dentist1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  isOneTime: 1
   speakers: 0100000001000000000000000100000000000000010000000100000001000000
   dialogue:
   - Hi there! I'm Dr. Wrasse, welcome to my dental office!
@@ -31,7 +30,9 @@ MonoBehaviour:
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
-  actionToFire: {fileID: 11400000, guid: 4433e7d73262442989c5e45415f810ec, type: 2}
+  actionsToFire:
+  - {fileID: 11400000, guid: 4433e7d73262442989c5e45415f810ec, type: 2}
+  - {fileID: 11400000, guid: ddb822bd49f3b441eb7ee428238cfe48, type: 2}
   requiredNPCs: []
   randomSpeakerName: 
   randomSpeakerPortrait: {fileID: 0}

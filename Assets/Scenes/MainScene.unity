@@ -2900,6 +2900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33865c942c5124081adac253067c9862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  speakerSOIdentifier: {fileID: 11400000, guid: f4c48b983953242a1b1b3b327963323a, type: 2}
   conversation:
   - {fileID: 11400000, guid: 5daea5a9d87f1468e8b577ea31aab15f, type: 2}
   - {fileID: 11400000, guid: f2dc2a7cf1d0c4cb399b96c6df419b64, type: 2}
@@ -3666,6 +3667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33865c942c5124081adac253067c9862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  speakerSOIdentifier: {fileID: 11400000, guid: 35b8d472d8d4b49babb797b5eb65bd91, type: 2}
   conversation:
   - {fileID: 11400000, guid: e9d9424d872ff4550b6b4caa55e0ebbd, type: 2}
   - {fileID: 11400000, guid: 969725b9006b048a58004810ffee030b, type: 2}
