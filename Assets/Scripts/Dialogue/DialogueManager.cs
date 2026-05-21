@@ -153,6 +153,7 @@ public enum DialogueSpeakers
 {
     Finnley,
     Dentist,
+    Eel,
     Shark_Mark,
     Shark_Joe,
     Shark_Lori,
