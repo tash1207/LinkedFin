@@ -45,6 +45,8 @@ public class DialogueManager : MonoBehaviour
     {
         if (dialogueActivated && ((currentIsAutomatic && stepNum == 0) || InputManager.interactAction.WasPressedThisFrame()))
         {
+            // TODO: Make sure character is within interaction area.
+
             if (stepNum >= currentConversation.speakers.Length)
             {
                 TurnOffDialogue();
@@ -112,11 +114,8 @@ public class DialogueManager : MonoBehaviour
         {
             foreach (var speaker in speakerSO)
             {
-                Debug.Log("speaker " + speaker);
-                Debug.Log(currentConversation.speakers[stepNum].ToString());
                 if (speaker.name == currentConversation.speakers[stepNum].ToString())
                 {
-                    Debug.Log("MATCH");
                     currentSpeaker = speaker.speakerName;
                     currentPortrait = speaker.speakerPortrait;
                 }
@@ -160,6 +159,9 @@ public enum DialogueSpeakers
     Shark_Joe,
     Shark_Lori,
     Eel,
+    Otto,
+    Crab,
+    Squid,
     Random,
     Branch
 };

@@ -12,12 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38989b43b1e684fbbb8e79ec001b0324, type: 3}
   m_Name: Eel1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
-  isAutomatic: 0
-  speakers: 0000000005000000
+  isAutomatic: 1
+  speakers: 000000000500000000000000050000000000000000000000050000000000000005000000
   dialogue:
   - 'Whoa! What just happened?! '
-  - Oh sorry about that, I'm a low power eel which means that happens instead of
-    you getting shocked when you come near me.
+  - Oh sorry about that, I'm a low power eel which means that instead of shocking
+    you when you come near me, I can see through to your bones.
+  - That's so cool!
+  - Unfortunately it's not a skill the power company is looking for so I'm currently
+    out of a job and looking for work. I'm Morey.
+  - 'Hi Morey, I''m Finnley. I made an app to help make it easier to connect with
+    other professionals. '
+  - The sharks laughed at my idea but I'm going to prove them wrong by helping connect
+    ReefCon attendees with businesses one fintroduction at a time!
+  - Fintroduction?
+  - Yes! The app is called LinkedFin and you can "Fintroduce" your connections to
+    each other to help grow their professional network!
+  - Hmm sounds like exactly what I need. I'll download it right now!
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}
