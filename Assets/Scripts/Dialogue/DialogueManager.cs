@@ -112,8 +112,11 @@ public class DialogueManager : MonoBehaviour
         {
             foreach (var speaker in speakerSO)
             {
+                Debug.Log("speaker " + speaker);
+                Debug.Log(currentConversation.speakers[stepNum].ToString());
                 if (speaker.name == currentConversation.speakers[stepNum].ToString())
                 {
+                    Debug.Log("MATCH");
                     currentSpeaker = speaker.speakerName;
                     currentPortrait = speaker.speakerPortrait;
                 }
@@ -153,10 +156,10 @@ public enum DialogueSpeakers
 {
     Finnley,
     Dentist,
-    Eel,
     Shark_Mark,
     Shark_Joe,
     Shark_Lori,
+    Eel,
     Random,
     Branch
 };

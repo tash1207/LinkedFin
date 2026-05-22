@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Eel2
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 02000000
+  speakers: 05000000
   dialogue:
   - Nice to meet you
   options: []

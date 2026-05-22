@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Eel1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 0000000002000000
+  speakers: 0000000005000000
   dialogue:
   - 'Whoa! What just happened?! '
   - Oh sorry about that, I'm a low power eel which means that happens instead of
@@ -24,7 +24,7 @@ MonoBehaviour:
   option2: {fileID: 0}
   option3: {fileID: 0}
   actionsToFire:
-  - {fileID: 11400000, guid: 1bc1c5aa4e4524e2fa815bfc55cc47f6, type: 2}
+  - {fileID: 11400000, guid: c551d39b864d14261bcdb6a962737de2, type: 2}
   - {fileID: 11400000, guid: a73689cb6a6484d43ac138c37e3745b5, type: 2}
   requiredNPCs: []
   randomSpeakerName: 
