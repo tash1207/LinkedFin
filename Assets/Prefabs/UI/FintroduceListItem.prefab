@@ -171,8 +171,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Job Title is really long and goes to next line
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 23df9b47493564c42b628bb8425527bd, type: 2}
+  m_sharedMaterial: {fileID: -2263308156742259034, guid: 23df9b47493564c42b628bb8425527bd, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -308,8 +308,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d8d7c9b06232e48cbb97fe6f6de0d835, type: 2}
+  m_sharedMaterial: {fileID: -7692192068426884892, guid: d8d7c9b06232e48cbb97fe6f6de0d835, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

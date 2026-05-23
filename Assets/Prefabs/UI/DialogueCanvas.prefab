@@ -173,8 +173,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -87.5, y: -62.5}
-  m_SizeDelta: {x: -475, y: -325}
+  m_AnchoredPosition: {x: -25, y: -107.5}
+  m_SizeDelta: {x: -400, y: -315}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1293642210957671611
 CanvasRenderer:
@@ -205,10 +205,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: This is what I have to say. I actually have a lot of things to say so here
-    they are and I'm saying them. What do you think about that? Huh?
+    they are and I'm saying them. What do you think about that? Huh? And here's a
+    little more for a 4th line
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c74ca5cc551b9433f9353c15748c0809, type: 2}
+  m_sharedMaterial: {fileID: -943518746507147907, guid: c74ca5cc551b9433f9353c15748c0809, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -232,15 +233,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -449,8 +450,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -25, y: -350}
-  m_SizeDelta: {x: 460, y: 400}
+  m_AnchoredPosition: {x: -25, y: -380}
+  m_SizeDelta: {x: 440, y: 400}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &4767180402400018554
 CanvasRenderer:
@@ -646,7 +647,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 300, y: 300}
+  m_SizeDelta: {x: 275, y: 275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6589990199078380907
 CanvasRenderer:
@@ -856,11 +857,11 @@ RectTransform:
   - {fileID: 1678527600019294941}
   m_Father: {fileID: 1050839906567445663}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 100, y: 25}
-  m_SizeDelta: {x: 1695, y: 585}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1745, y: 585}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &2087809606145163834
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -889,7 +890,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1209458016326701021, guid: 58b482c0d387c495888f1694c34535fc, type: 3}
+  m_Sprite: {fileID: -8187870098839684276, guid: 60a8a307db0314b9da55543d8b0e0ae7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1055,7 +1056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -450, y: -475}
+  m_AnchoredPosition: {x: -420, y: -535}
   m_SizeDelta: {x: 416, y: 200}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &2812501083768362486
@@ -1235,7 +1236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1050839906567445663
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1477,8 +1478,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10, y: 0}
-  m_SizeDelta: {x: -60, y: 0}
+  m_AnchoredPosition: {x: -12.5, y: -2.5000012}
+  m_SizeDelta: {x: -55, y: -4.9999976}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2140558150501760436
 CanvasRenderer:
@@ -1508,10 +1509,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Finnley
+  m_text: Dr. Wrasse
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c74ca5cc551b9433f9353c15748c0809, type: 2}
+  m_sharedMaterial: {fileID: -943518746507147907, guid: c74ca5cc551b9433f9353c15748c0809, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1535,8 +1536,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
