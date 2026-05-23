@@ -45,8 +45,6 @@ public class DialogueManager : MonoBehaviour
     {
         if (dialogueActivated && ((currentIsAutomatic && stepNum == 0) || InputManager.interactAction.WasPressedThisFrame()))
         {
-            // TODO: Make sure character is within interaction area.
-
             if (stepNum >= currentConversation.speakers.Length)
             {
                 TurnOffDialogue();
@@ -133,6 +131,11 @@ public class DialogueManager : MonoBehaviour
         currentConversation = npcConversation;
         currentIsAutomatic = currentConversation.isAutomatic;
         dialogueActivated = true;
+    }
+
+    public void UninitiateDialogue()
+    {
+        dialogueActivated = false;
     }
 
     public void TurnOffDialogue()

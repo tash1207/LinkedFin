@@ -90,6 +90,7 @@ public class NPCDialogue : MonoBehaviour
         {
             speechBubbleRenderer.enabled = false;
             dialogueInitiated = false;
+            dialogueManager.UninitiateDialogue();
         }
     }
 
