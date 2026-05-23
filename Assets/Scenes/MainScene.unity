@@ -795,8 +795,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CEO of LinkedFin / Entrepreneur
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 23df9b47493564c42b628bb8425527bd, type: 2}
-  m_sharedMaterial: {fileID: -2263308156742259034, guid: 23df9b47493564c42b628bb8425527bd, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3c38fe82d20da41349b8d5e0aee6b47f, type: 2}
+  m_sharedMaterial: {fileID: 8636580562436605011, guid: 3c38fe82d20da41349b8d5e0aee6b47f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -820,8 +820,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38
-  m_fontSizeBase: 38
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2399,8 +2399,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Finnley
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d8d7c9b06232e48cbb97fe6f6de0d835, type: 2}
-  m_sharedMaterial: {fileID: -7692192068426884892, guid: d8d7c9b06232e48cbb97fe6f6de0d835, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3c38fe82d20da41349b8d5e0aee6b47f, type: 2}
+  m_sharedMaterial: {fileID: 8636580562436605011, guid: 3c38fe82d20da41349b8d5e0aee6b47f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2430,7 +2430,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -4361,8 +4361,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Close
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 209ea5d8dfa4c4f55baba9dfff27fc7d, type: 2}
-  m_sharedMaterial: {fileID: 1287474973515462583, guid: 209ea5d8dfa4c4f55baba9dfff27fc7d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3c38fe82d20da41349b8d5e0aee6b47f, type: 2}
+  m_sharedMaterial: {fileID: 8636580562436605011, guid: 3c38fe82d20da41349b8d5e0aee6b47f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4392,7 +4392,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -5943,8 +5943,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Your Connections (0)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 209ea5d8dfa4c4f55baba9dfff27fc7d, type: 2}
-  m_sharedMaterial: {fileID: 1287474973515462583, guid: 209ea5d8dfa4c4f55baba9dfff27fc7d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d8d7c9b06232e48cbb97fe6f6de0d835, type: 2}
+  m_sharedMaterial: {fileID: -7692192068426884892, guid: d8d7c9b06232e48cbb97fe6f6de0d835, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

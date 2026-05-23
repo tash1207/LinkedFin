@@ -171,8 +171,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Job Title is really long and goes to next line
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 23df9b47493564c42b628bb8425527bd, type: 2}
-  m_sharedMaterial: {fileID: -2263308156742259034, guid: 23df9b47493564c42b628bb8425527bd, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3c38fe82d20da41349b8d5e0aee6b47f, type: 2}
+  m_sharedMaterial: {fileID: 8636580562436605011, guid: 3c38fe82d20da41349b8d5e0aee6b47f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -196,8 +196,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -308,8 +308,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d8d7c9b06232e48cbb97fe6f6de0d835, type: 2}
-  m_sharedMaterial: {fileID: -7692192068426884892, guid: d8d7c9b06232e48cbb97fe6f6de0d835, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3c38fe82d20da41349b8d5e0aee6b47f, type: 2}
+  m_sharedMaterial: {fileID: 8636580562436605011, guid: 3c38fe82d20da41349b8d5e0aee6b47f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -333,8 +333,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
