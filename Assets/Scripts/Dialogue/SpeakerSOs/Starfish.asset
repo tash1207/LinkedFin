@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Starfish
   m_EditorClassIdentifier: Assembly-CSharp::SpeakerSO
   speakerName: Starfish
-  speakerPortrait: {fileID: 2524089882005562005, guid: 190609512389244768cd9b8cc7a5a296, type: 3}
+  speakerPortrait: {fileID: -3514020835062027974, guid: 65bf8aa6e15b84647831a065011769b9, type: 3}

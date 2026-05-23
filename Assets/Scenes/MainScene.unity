@@ -5880,6 +5880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Starfish
       objectReference: {fileID: 0}
+    - target: {fileID: 5252277905365127350, guid: 87ebc2ec81f494910a4de342d8b4119f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.24
+      objectReference: {fileID: 0}
     - target: {fileID: 5756578365025552758, guid: 87ebc2ec81f494910a4de342d8b4119f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.21
@@ -5926,7 +5930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5894503721670965468, guid: 87ebc2ec81f494910a4de342d8b4119f, type: 3}
       propertyPath: m_Offset.y
-      value: -2.2454095
+      value: -1.29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
