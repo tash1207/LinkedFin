@@ -4,7 +4,8 @@ using UnityEngine.UI;
 public class HUDManager : MonoBehaviour
 {
     [SerializeField] GameObject hudCanvas;
-    [SerializeField] Button linkedFinButton;
+    [SerializeField] GameObject penButton;
+    [SerializeField] GameObject seaweedButton;
 
     public static HUDManager Instance;
 
@@ -19,6 +20,18 @@ public class HUDManager : MonoBehaviour
         Instance = this;
     }
 
+    void OnEnable()
+    {
+        Actions.OnPickUpPen += showPenButton;
+        Actions.OnPickUpSeaweed += showSeaweedButton;
+    }
+
+    void OnDisable()
+    {
+        Actions.OnPickUpPen -= showPenButton;
+        Actions.OnPickUpSeaweed += showSeaweedButton;
+    }
+
     public void showHUD()
     {
         hudCanvas.SetActive(true);
@@ -31,14 +44,13 @@ public class HUDManager : MonoBehaviour
         LinkedFinApp.Instance.isAvailable = false;
     }
 
-    // Not currently used.
-    public void disableHUD()
+    private void showPenButton()
     {
-        linkedFinButton.enabled = false;
+        penButton.SetActive(true);
     }
 
-    public void enableHUD()
+    private void showSeaweedButton()
     {
-        linkedFinButton.enabled = true;
+        seaweedButton.SetActive(true);
     }
 }

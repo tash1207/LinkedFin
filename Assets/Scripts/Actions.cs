@@ -8,6 +8,9 @@ public static class Actions
 
     public static Action<SpeakerSO, DialogueSO> SetDialogStep;
 
+    public static Action OnPickUpPen;
+    public static Action OnPickUpSeaweed;
+
     // UI
     public static Action ToggleFinApp;
     

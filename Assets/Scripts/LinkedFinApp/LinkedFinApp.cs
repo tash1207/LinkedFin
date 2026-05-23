@@ -48,7 +48,7 @@ public class LinkedFinApp : MonoBehaviour
     {
         if (isAvailable)
         {
-            if (appCanvas.activeSelf)
+            if (appCanvas && appCanvas.activeSelf)
                 HideApp();
             else
                 ShowApp();

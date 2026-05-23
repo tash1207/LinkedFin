@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d49976cda404cde872e054b914e229, type: 3}
   m_Name: Eel
   m_EditorClassIdentifier: Assembly-CSharp::ConnectionSO
-  connName: Murray Lee
+  connName: Morey Lee
   jobTitle: Looking for work
   lookingFor: 'Skills: Low power emission'
   portrait: {fileID: -2139383902461033993, guid: dd0b46ad08eaa4205aed0df5223c4600, type: 3}
