@@ -167,6 +167,7 @@ public enum DialogueSpeakers
     Squid,
     Starfish,
     Kelp,
+    FinnleyShocked,
     Random,
     Branch
 };

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Eel1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 1
-  speakers: 000000000500000000000000050000000000000000000000050000000000000005000000
+  speakers: 0b000000050000000b000000050000000b0000000b000000050000000b00000005000000
   dialogue:
   - 'Whoa! What just happened?! '
   - Oh sorry about that, I'm a low power eel which means that instead of shocking

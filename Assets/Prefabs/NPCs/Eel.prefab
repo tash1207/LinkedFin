@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2092106295907879098}
   - component: {fileID: 2238469871422056353}
+  - component: {fileID: 3950408489778983697}
   - component: {fileID: 3380676069743814854}
   - component: {fileID: 6275509108895324325}
   m_Layer: 0
@@ -52,6 +53,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: aa9c6ddeba9464528bf9f904ce17e1d0, type: 2}
   convNum: 0
   shouldFlip: 1
+--- !u!114 &3950408489778983697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859468298354523968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9b47b9fd4b34033b7ca37c9f9367af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EelShock
 --- !u!212 &3380676069743814854
 SpriteRenderer:
   serializedVersion: 2
@@ -145,7 +158,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.31582022, y: -2.8556664}
+  m_Offset: {x: -0.2513795, y: -2.554943}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -155,7 +168,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 6.276372, y: 1.1283679}
+  m_Size: {x: 6.6630163, y: 0.5555613}
   m_EdgeRadius: 0
 --- !u!1 &1988414697340963756
 GameObject:

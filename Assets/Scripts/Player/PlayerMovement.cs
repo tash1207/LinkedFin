@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     private const string lookX = "LookX";
     private const string lookY = "LookY";
+    private const string skeleton = "Skeleton";
 
     public bool isPaused;
 
@@ -37,5 +38,10 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat(lookX, movement.x);
             animator.SetFloat(lookY, movement.y);
         }
+    }
+
+    public void SetSkeleton(bool isSkeleton)
+    {
+        animator.SetBool(skeleton, isSkeleton);
     }
 }
