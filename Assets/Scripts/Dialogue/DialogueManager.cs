@@ -162,6 +162,8 @@ public enum DialogueSpeakers
     Otto,
     Crab,
     Squid,
+    Starfish,
+    Kelp,
     Random,
     Branch
 };
