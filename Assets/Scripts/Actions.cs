@@ -13,5 +13,6 @@ public static class Actions
 
     // UI
     public static Action ToggleFinApp;
-    
+    public static Action<ConnectionSO> ShowFintroduceList;
+    public static Action<ConnectionSO> Fintroduce;
 }

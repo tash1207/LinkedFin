@@ -2,11 +2,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ConnectionProfile : MonoBehaviour
+public class FintroduceListItem : MonoBehaviour
 {
     [SerializeField] TMP_Text nameText;
     [SerializeField] TMP_Text jobText;
-    [SerializeField] TMP_Text lookingForText;
     [SerializeField] Image portrait;
 
     public ConnectionSO profile;
@@ -16,12 +15,11 @@ public class ConnectionProfile : MonoBehaviour
         profile = connectionSO;
         nameText.text = connectionSO.connName;
         jobText.text = connectionSO.jobTitle;
-        lookingForText.text = connectionSO.lookingFor;
         portrait.sprite = connectionSO.portrait;
     }
 
-    public void ShowFintroduceList()
+    public void Fintroduce()
     {
-        Actions.ShowFintroduceList(profile);
+        Actions.Fintroduce(profile);
     }
 }

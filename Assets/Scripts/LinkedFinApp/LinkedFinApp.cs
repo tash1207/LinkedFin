@@ -8,6 +8,10 @@ public class LinkedFinApp : MonoBehaviour
     [SerializeField] TMP_Text yourConnectionsText;
     [SerializeField] Transform connectionsListParent;
     [SerializeField] GameObject connectionProfilePrefab;
+    [SerializeField] GameObject fintroduceListCanvas;
+    [SerializeField] Transform fintroduceListParent;
+    [SerializeField] TMP_Text fintroduceHeaderText;
+    [SerializeField] GameObject fintroductionListItemPrefab;
 
     private readonly List<ConnectionSO> connections = new List<ConnectionSO>();
 
@@ -15,6 +19,8 @@ public class LinkedFinApp : MonoBehaviour
 
     public static LinkedFinApp Instance;
     public bool isAvailable;
+
+    private ConnectionSO selectedProfile;
 
     void Awake()
     {
@@ -36,12 +42,16 @@ public class LinkedFinApp : MonoBehaviour
     {
         Actions.OnConnectionMade += AddConnection;
         Actions.ToggleFinApp += ToggleApp;
+        Actions.ShowFintroduceList += ShowFintroduceList;
+        Actions.Fintroduce += Fintroduce;
     }
 
     void OnDisable()
     {
         Actions.OnConnectionMade -= AddConnection;
         Actions.ToggleFinApp += ToggleApp;
+        Actions.ShowFintroduceList -= ShowFintroduceList;
+        Actions.Fintroduce -= Fintroduce;
     }
 
     public void ToggleApp()
@@ -90,5 +100,37 @@ public class LinkedFinApp : MonoBehaviour
     public List<ConnectionSO> GetConnections()
     {
         return connections;
+    }
+
+    public void ShowFintroduceList(ConnectionSO currentProfile)
+    {
+        selectedProfile = currentProfile;
+        fintroduceHeaderText.text = "Fintroduce " + currentProfile.connName + " to:";
+
+        // Clear existing list items
+        foreach (Transform child in fintroduceListParent)
+        {
+            Destroy(child.gameObject);
+        }
+        // Instantiate list of connection names minus current profile
+        foreach (ConnectionSO conn in connections)
+        {
+            if (conn != currentProfile)
+            {
+                GameObject newListItem = Instantiate(fintroductionListItemPrefab, fintroduceListParent);
+                newListItem.GetComponent<FintroduceListItem>().SetInfo(conn);
+            }
+        }
+        fintroduceListCanvas.SetActive(true);
+    }
+
+    public void Fintroduce(ConnectionSO newConnection)
+    {
+        // Logic for what happens when you fintroduce each character to each other
+        Debug.Log("Fintroducing " + selectedProfile.connName + " to " + 
+            newConnection.connName);
+
+        // TODO: Maybe close full app and show a dialog or add a messaging page to the app.
+        fintroduceListCanvas.SetActive(false);
     }
 }
