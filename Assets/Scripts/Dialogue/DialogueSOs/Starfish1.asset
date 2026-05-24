@@ -22,7 +22,8 @@ MonoBehaviour:
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
-  actionsToFire: []
+  actionsToFire:
+  - {fileID: 11400000, guid: 88f08d872b89645bbbb3f35a65b676ce, type: 2}
   requiredNPCs: []
   randomSpeakerName: 
   randomSpeakerPortrait: {fileID: 0}
