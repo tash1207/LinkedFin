@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: FinnleyShocked
   m_EditorClassIdentifier: Assembly-CSharp::SpeakerSO
   speakerName: Finnley
-  speakerPortrait: {fileID: 2947570370524647877, guid: 693b0fbf125f749a5a05e6040c12d783, type: 3}
+  speakerPortrait: {fileID: 1664357772287024801, guid: 333be3822063b49bbb58e494baf58daf, type: 3}

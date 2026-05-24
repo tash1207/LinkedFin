@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 693b0fbf125f749a5a05e6040c12d783
+guid: 333be3822063b49bbb58e494baf58daf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9044890069492059899
-    second: seahorse-skeleton_0
+      213: -964824239653993824
+    second: skeleton_0
   - first:
-      213: -4899681222318399459
-    second: seahorse-skeleton_1
+      213: -3264722998049715623
+    second: skeleton_1
   - first:
-      213: 2947570370524647877
-    second: seahorse-skeleton_2
+      213: 1664357772287024801
+    second: skeleton_2
   - first:
-      213: 4802879796682566491
-    second: seahorse-skeleton_3
+      213: -1861396428348373837
+    second: skeleton_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 378
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: seahorse-skeleton_0
+      name: skeleton_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 186
-        width: 231
-        height: 321
+        x: 33
+        y: 477
+        width: 588
+        height: 822
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bfe4888a897e58d70800000000000000
-      internalID: 9044890069492059899
+      spriteID: 0a2ccb447714c92f0800000000000000
+      internalID: -964824239653993824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: seahorse-skeleton_1
+      name: skeleton_1
       rect:
         serializedVersion: 2
-        x: 259
-        y: 186
-        width: 231
-        height: 321
+        x: 670
+        y: 478
+        width: 588
+        height: 821
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d106f0f43e5d00cb0800000000000000
-      internalID: -4899681222318399459
+      spriteID: 95ac2330bbf51b2d0800000000000000
+      internalID: -3264722998049715623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: seahorse-skeleton_2
+      name: skeleton_2
       rect:
         serializedVersion: 2
-        x: 513
-        y: 179
-        width: 174
-        height: 333
+        x: 1324
+        y: 460
+        width: 441
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c1969592afd7e820800000000000000
-      internalID: 2947570370524647877
+      spriteID: 1ae1454639cf81710800000000000000
+      internalID: 1664357772287024801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: seahorse-skeleton_3
+      name: skeleton_3
       rect:
         serializedVersion: 2
-        x: 734
-        y: 179
-        width: 174
-        height: 333
+        x: 1894
+        y: 460
+        width: 442
+        height: 851
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5b2a247ab147a240800000000000000
-      internalID: 4802879796682566491
+      spriteID: 3b44d1e7fcdfa26e0800000000000000
+      internalID: -1861396428348373837
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 95cfee9472b66470aa4ef41c77b19e72
+    spriteID: e91e68c356ba243dfbbb035af6fc6200
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      seahorse-skeleton_0: 9044890069492059899
-      seahorse-skeleton_1: -4899681222318399459
-      seahorse-skeleton_2: 2947570370524647877
-      seahorse-skeleton_3: 4802879796682566491
+      skeleton_0: -964824239653993824
+      skeleton_1: -3264722998049715623
+      skeleton_2: 1664357772287024801
+      skeleton_3: -1861396428348373837
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

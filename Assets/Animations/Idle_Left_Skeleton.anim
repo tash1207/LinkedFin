@@ -21,7 +21,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -4899681222318399459, guid: 693b0fbf125f749a5a05e6040c12d783, type: 3}
+      value: {fileID: -3264722998049715623, guid: 333be3822063b49bbb58e494baf58daf, type: 3}
     attribute: m_Sprite
     path: Seahorse
     classID: 212
@@ -44,7 +44,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -4899681222318399459, guid: 693b0fbf125f749a5a05e6040c12d783, type: 3}
+    - {fileID: -3264722998049715623, guid: 333be3822063b49bbb58e494baf58daf, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

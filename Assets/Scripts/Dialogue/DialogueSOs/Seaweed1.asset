@@ -16,7 +16,7 @@ MonoBehaviour:
   speakers: 000000000a000000
   dialogue:
   - Ooh a seaweed dispensary!
-  - First time? Have a free preroll.
+  - First time? Have a free pre-roll.
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}
