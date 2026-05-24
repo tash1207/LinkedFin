@@ -5912,6 +5912,7 @@ MonoBehaviour:
   speakerName: {fileID: 235325221}
   portrait: {fileID: 62952173}
   dialogueText: {fileID: 397261357}
+  hintCanvas: {fileID: 6495093719187644559}
   speakerSO:
   - {fileID: 11400000, guid: f32ae5e70e6774f28a530044ed7b666b, type: 2}
   - {fileID: 11400000, guid: 35b8d472d8d4b49babb797b5eb65bd91, type: 2}
@@ -7535,6 +7536,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2020546065769009133, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6668549310941984790, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
       propertyPath: m_Name
       value: DialogueCanvas
@@ -7548,6 +7553,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
+--- !u!1 &6495093719187644559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4433195842913804979, guid: 2fa3fcb477ac04a22940cf80346771bd, type: 3}
+  m_PrefabInstance: {fileID: 6495093719187644558}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6656418024269884922
 PrefabInstance:
   m_ObjectHideFlags: 0

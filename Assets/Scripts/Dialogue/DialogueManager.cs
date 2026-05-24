@@ -8,12 +8,14 @@ public class DialogueManager : MonoBehaviour
     private bool currentIsAutomatic;
     private int stepNum;
     private bool dialogueActivated;
+    private bool hintHidden;
 
     // UI References
     [SerializeField] GameObject dialogueCanvas;
     [SerializeField] TMP_Text speakerName;
     [SerializeField] Image portrait;
     [SerializeField] TMP_Text dialogueText;
+    [SerializeField] GameObject hintCanvas;
 
     public SpeakerSO[] speakerSO;
 
@@ -58,6 +60,14 @@ public class DialogueManager : MonoBehaviour
                 HUDManager.Instance.hideHUD();
                 Time.timeScale = 0;
                 PlayDialogue();
+            }
+        }
+        if (InputManager.interactAction.WasPressedThisFrame())
+        {
+            if (!hintHidden)
+            {
+                hintCanvas.SetActive(false);
+                hintHidden = true;
             }
         }
     }
