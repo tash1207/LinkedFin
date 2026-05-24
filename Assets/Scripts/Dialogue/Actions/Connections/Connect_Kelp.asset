@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20d6edd28cfc346bbba2c75df8135172, type: 3}
-  m_Name: Kelp
-  m_EditorClassIdentifier: Assembly-CSharp::SpeakerSO
-  speakerName: Kelp
-  speakerPortrait: {fileID: -4973193515241522303, guid: 72d8c868e76a042cca469d74aba50583, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a37dca09592543dab5962c65fa120a1, type: 3}
+  m_Name: Connect_Kelp
+  m_EditorClassIdentifier: Assembly-CSharp::AddConnectionAction
+  connectionSO: {fileID: 11400000, guid: 8e34465f24b314e999bc1ebd818caa54, type: 2}
