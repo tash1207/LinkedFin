@@ -27,6 +27,8 @@ public class SceneTransporter : MonoBehaviour
     {
         playerMovement = FindFirstObjectByType<PlayerMovement>();
         player = playerMovement.gameObject;
+
+        // -2.59, -3.07
     }
 
     public void TransportToShip()
@@ -39,6 +41,7 @@ public class SceneTransporter : MonoBehaviour
     public void TransportToMountain()
     {
         mainCamera.SetActive(false);
+        player.transform.position = new Vector3(-8.5f, 33.5f);
         mountainCamera.SetActive(true);
     }
 
@@ -52,6 +55,7 @@ public class SceneTransporter : MonoBehaviour
     public void TransportFromMountain()
     {
         mountainCamera.SetActive(false);
+        player.transform.position = new Vector3(-15f, 8f);
         mainCamera.SetActive(true);
     }
 }
