@@ -6,14 +6,23 @@ public class LinkedFinApp : MonoBehaviour
 {
     [SerializeField] GameObject appCanvas;
     [SerializeField] TMP_Text yourConnectionsText;
+    [SerializeField] TMP_Text noConnectionsText;
+    [SerializeField] TMP_Text yourMessagesText;
+    [SerializeField] TMP_Text noMessagesText;
+
     [SerializeField] Transform connectionsListParent;
     [SerializeField] GameObject connectionProfilePrefab;
+    [SerializeField] Transform messagesListParent;
+    [SerializeField] GameObject messageItemPrefab;
     [SerializeField] GameObject fintroduceListCanvas;
     [SerializeField] Transform fintroduceListParent;
     [SerializeField] TMP_Text fintroduceHeaderText;
     [SerializeField] GameObject fintroductionListItemPrefab;
 
+    [SerializeField] MessageSO[] allMessages;
+
     private readonly List<ConnectionSO> connections = new List<ConnectionSO>();
+    private readonly List<MessageSO> messages = new List<MessageSO>();
 
     private PlayerMovement playerMovement;
 
@@ -84,16 +93,32 @@ public class LinkedFinApp : MonoBehaviour
 
     public void InitializeAppUI()
     {
-        yourConnectionsText.text = "Your Connections (" + connections.Count + ")";
+        yourConnectionsText.text = "Connections\n(" + connections.Count + ")";
+        yourMessagesText.text = "Messages\n(" + messages.Count + ")";
     }
 
     public void AddConnection(ConnectionSO connectionSO)
     {
         if (!connections.Contains(connectionSO))
         {
+            noConnectionsText.text = "";
             connections.Add(connectionSO);
             GameObject newConn = Instantiate(connectionProfilePrefab, connectionsListParent);
             newConn.GetComponent<ConnectionProfile>().SetInfo(connectionSO);
+        }
+    }
+
+    public void AddMessage(MessageSO messageSO)
+    {
+        if (!messages.Contains(messageSO))
+        {
+            noMessagesText.text = "";
+            messages.Add(messageSO);
+            yourMessagesText.text = "Messages\n(" + messages.Count + ")";
+            // TODO: UI for messages
+            GameObject newConn = Instantiate(messageItemPrefab, messagesListParent);
+            newConn.GetComponent<MessageInfo>().SetInfo(messageSO);
+            Debug.Log("LinkedFin message from " + messageSO.connection.connName);
         }
     }
 
@@ -129,6 +154,26 @@ public class LinkedFinApp : MonoBehaviour
         // Logic for what happens when you fintroduce each character to each other
         Debug.Log("Fintroducing " + selectedProfile.connName + " to " + 
             newConnection.connName);
+
+        // Instead of resources, add array and check
+        // if (speaker.name == currentConversation.speakers[stepNum].ToString())
+
+        if (selectedProfile.connName == "Dr. Emilio Wrasse")
+        {
+            if (newConnection.connName == "Morey Lee")
+            {
+                MessageSO dentistGood = Resources.Load<MessageSO>("DentistGood");
+                AddMessage(dentistGood);
+            }
+        }
+        else if (selectedProfile.connName == "Morey Lee")
+        {
+            if (newConnection.connName == "Dr. Emilio Wrasse")
+            {
+                MessageSO dentistGood = Resources.Load<MessageSO>("DentistGood");
+                AddMessage(dentistGood);
+            }
+        }
 
         // TODO: Maybe close full app and show a dialog or add a messaging page to the app.
         fintroduceListCanvas.SetActive(false);

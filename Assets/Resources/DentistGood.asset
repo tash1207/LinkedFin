@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b285fcca7be5c4ab68252ba11be0fa69, type: 3}
+  m_Name: DentistGood
+  m_EditorClassIdentifier: Assembly-CSharp::MessageSO
+  connection: {fileID: 11400000, guid: 8f6d1a25f754f42468d034436e502189, type: 2}
+  messageText: Thanks so much for fintroducing me to Morey! He's the perfect xray
+    technician!
