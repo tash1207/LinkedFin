@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: OctopusAdvance
   m_EditorClassIdentifier: Assembly-CSharp::SetDialogueStep
   speakerSO: {fileID: 11400000, guid: d08801c7295774b32b892fd14113dd09, type: 2}
-  dialogueSO: {fileID: 11400000, guid: 110c57d971ca84b1d828e8732bb3f458, type: 2}
+  dialogueSO: {fileID: 0}

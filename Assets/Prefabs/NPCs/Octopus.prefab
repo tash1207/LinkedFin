@@ -217,6 +217,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3986b654b0dc54221b0c457ee098a35b, type: 2}
   - {fileID: 11400000, guid: 110c57d971ca84b1d828e8732bb3f458, type: 2}
   - {fileID: 11400000, guid: 48779c8e2ac8d414eb69a42b6a994f5f, type: 2}
+  - {fileID: 11400000, guid: b39e63142cf7344f29d75f5e2f8a6d8c, type: 2}
   convNum: 0
   shouldFlip: 0
 --- !u!212 &7345676679366576874

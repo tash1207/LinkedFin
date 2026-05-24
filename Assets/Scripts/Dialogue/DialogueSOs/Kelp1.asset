@@ -26,6 +26,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 09fbd1bd429fd4ea482c5dedd8b695f9, type: 2}
   - {fileID: 11400000, guid: 0ed4759d129ee487184146ad5108634d, type: 2}
   - {fileID: 11400000, guid: d248001f0e1c948d5ae210b440fc21ba, type: 2}
+  - {fileID: 11400000, guid: 897cd5066b99f4a498ee7d872451cd04, type: 2}
   requiredNPCs: []
   randomSpeakerName: 
   randomSpeakerPortrait: {fileID: 0}

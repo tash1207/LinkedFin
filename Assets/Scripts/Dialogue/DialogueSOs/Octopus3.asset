@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Octopus3
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 0e000000000000000e00000000000000
+  speakers: 0e000000000000000e000000000000000e000000
   dialogue:
   - VIPs ONL-
   - Yes, yes, I know. But now I've got something to sweeten the deal.
   - Oh?
   - You seem pretty stressed in this job. Have you ever tried seaweed before?
+  - Now we're talking. Come on in, pal.
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}
@@ -26,6 +27,8 @@ MonoBehaviour:
   option3: {fileID: 0}
   actionsToFire:
   - {fileID: 11400000, guid: 9419edc133be04095bfbef07b4e32da6, type: 2}
+  - {fileID: 11400000, guid: 90e44db4aa94c4afd884f57223ceb7b4, type: 2}
+  - {fileID: 11400000, guid: 6cbf8b6bf937f43b68add0c091a21965, type: 2}
   requiredNPCs: []
   randomSpeakerName: 
   randomSpeakerPortrait: {fileID: 0}
