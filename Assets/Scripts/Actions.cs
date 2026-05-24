@@ -10,6 +10,8 @@ public static class Actions
 
     public static Action OnPickUpPen;
     public static Action OnPickUpSeaweed;
+    public static Action OnGivePen;
+    public static Action OnGiveSeaweed;
 
     // UI
     public static Action ToggleFinApp;

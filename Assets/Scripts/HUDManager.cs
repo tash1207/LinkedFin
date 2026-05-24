@@ -24,12 +24,16 @@ public class HUDManager : MonoBehaviour
     {
         Actions.OnPickUpPen += showPenButton;
         Actions.OnPickUpSeaweed += showSeaweedButton;
+        Actions.OnGivePen += hidePenButton;
+        Actions.OnGiveSeaweed += hideSeaweedButton;
     }
 
     void OnDisable()
     {
         Actions.OnPickUpPen -= showPenButton;
         Actions.OnPickUpSeaweed += showSeaweedButton;
+        Actions.OnGivePen -= hidePenButton;
+        Actions.OnGiveSeaweed -= hideSeaweedButton;
     }
 
     public void showHUD()
@@ -52,5 +56,15 @@ public class HUDManager : MonoBehaviour
     private void showSeaweedButton()
     {
         seaweedButton.SetActive(true);
+    }
+
+    private void hidePenButton()
+    {
+        penButton.SetActive(false);
+    }
+
+    private void hideSeaweedButton()
+    {
+        seaweedButton.SetActive(false);
     }
 }
