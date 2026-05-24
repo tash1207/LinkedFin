@@ -10,22 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38989b43b1e684fbbb8e79ec001b0324, type: 3}
-  m_Name: Kelp1
+  m_Name: Octopus1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 000000000a000000
+  speakers: 000000000e000000000000000e000000000000000e000000
   dialogue:
-  - Ooh a seaweed dispensary!
-  - First time? Have a free pre-roll.
+  - Ooh what's over here?!
+  - VIPs only. I can't let you through.
+  - How do I get a VIP pass?
+  - You had to purchase one in advance.
+  - So there's no way I can get in there?
+  - Those are the rules. Unless you got something to sweeten the deal.
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
   actionsToFire:
-  - {fileID: 11400000, guid: 09fbd1bd429fd4ea482c5dedd8b695f9, type: 2}
-  - {fileID: 11400000, guid: 0ed4759d129ee487184146ad5108634d, type: 2}
-  - {fileID: 11400000, guid: d248001f0e1c948d5ae210b440fc21ba, type: 2}
+  - {fileID: 11400000, guid: 90e44db4aa94c4afd884f57223ceb7b4, type: 2}
+  - {fileID: 11400000, guid: 897cd5066b99f4a498ee7d872451cd04, type: 2}
   requiredNPCs: []
   randomSpeakerName: 
   randomSpeakerPortrait: {fileID: 0}

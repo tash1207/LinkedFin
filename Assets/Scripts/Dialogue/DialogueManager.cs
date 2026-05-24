@@ -180,6 +180,7 @@ public enum DialogueSpeakers
     FinnleyShocked,
     Barnacle,
     Whale,
+    Octopus,
     Random,
     Branch
 };
