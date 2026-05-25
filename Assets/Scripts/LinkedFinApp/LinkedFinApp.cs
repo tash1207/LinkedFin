@@ -155,27 +155,55 @@ public class LinkedFinApp : MonoBehaviour
         Debug.Log("Fintroducing " + selectedProfile.connName + " to " + 
             newConnection.connName);
 
-        // Instead of resources, add array and check
-        // if (speaker.name == currentConversation.speakers[stepNum].ToString())
-
         if (selectedProfile.connName == "Dr. Emilio Wrasse")
         {
             if (newConnection.connName == "Morey Lee")
             {
-                MessageSO dentistGood = Resources.Load<MessageSO>("DentistGood");
-                AddMessage(dentistGood);
+                MessageSO message = Resources.Load<MessageSO>("DentistGood");
+                AddMessage(message);
             }
         }
         else if (selectedProfile.connName == "Morey Lee")
         {
             if (newConnection.connName == "Dr. Emilio Wrasse")
             {
-                MessageSO dentistGood = Resources.Load<MessageSO>("DentistGood");
-                AddMessage(dentistGood);
+                MessageSO message = Resources.Load<MessageSO>("DentistGood");
+                AddMessage(message);
+            }
+        }
+        else if (selectedProfile.connName == "PT Barnacle")
+        {
+            if (newConnection.connName == "Ringo Starfish")
+            {
+                MessageSO message = Resources.Load<MessageSO>("Ubarnacle");
+                AddMessage(message);
+            }
+        }
+        else if (selectedProfile.connName == "Ringo Starfish")
+        {
+            if (newConnection.connName == "PT Barnacle")
+            {
+                MessageSO message = Resources.Load<MessageSO>("Ubarnacle");
+                AddMessage(message);
+            }
+        }
+        else if (selectedProfile.connName == "Shelley")
+        {
+            if (newConnection.connName == "Otto Otterton")
+            {
+                MessageSO message = Resources.Load<MessageSO>("Shellow");
+                AddMessage(message);
+            }
+        }
+        else if (selectedProfile.connName == "Otto Otterton")
+        {
+            if (newConnection.connName == "Shelley")
+            {
+                MessageSO message = Resources.Load<MessageSO>("Shellow");
+                AddMessage(message);
             }
         }
 
-        // TODO: Maybe close full app and show a dialog or add a messaging page to the app.
         fintroduceListCanvas.SetActive(false);
     }
 }

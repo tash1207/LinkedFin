@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d49976cda404cde872e054b914e229, type: 3}
   m_Name: Starfish
   m_EditorClassIdentifier: Assembly-CSharp::ConnectionSO
-  connName: Starfish
+  connName: Ringo Starfish
   jobTitle: Looking for work
   lookingFor: '"When I find something I like, I stick to it!"'
   portrait: {fileID: -3514020835062027974, guid: 65bf8aa6e15b84647831a065011769b9, type: 3}

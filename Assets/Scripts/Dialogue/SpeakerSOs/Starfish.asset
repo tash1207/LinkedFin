@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20d6edd28cfc346bbba2c75df8135172, type: 3}
   m_Name: Starfish
   m_EditorClassIdentifier: Assembly-CSharp::SpeakerSO
-  speakerName: Starfish
+  speakerName: Ringo
   speakerPortrait: {fileID: -3514020835062027974, guid: 65bf8aa6e15b84647831a065011769b9, type: 3}
