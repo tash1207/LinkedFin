@@ -12,6 +12,7 @@ public static class Actions
     public static Action OnPickUpSeaweed;
     public static Action OnGivePen;
     public static Action OnGiveSeaweed;
+    public static Action OnGameOver;
 
     // UI
     public static Action ToggleFinApp;

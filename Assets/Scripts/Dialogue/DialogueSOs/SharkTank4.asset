@@ -15,14 +15,15 @@ MonoBehaviour:
   isAutomatic: 0
   speakers: 02000000
   dialogue:
-  - Congrats Finnley, you've convinced all 3 sharks to invest in your company. You
-    win!
+  - Congrats Finnley, you've convinced all 3 sharks and a whale to invest in your
+    company. You win!
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
-  actionsToFire: []
+  actionsToFire:
+  - {fileID: 11400000, guid: e9dab8d3d655a44bd87323da3fde26eb, type: 2}
   requiredNPCs: []
   randomSpeakerName: 
   randomSpeakerPortrait: {fileID: 0}

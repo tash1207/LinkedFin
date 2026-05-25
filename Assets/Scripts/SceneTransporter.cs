@@ -1,5 +1,5 @@
-using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneTransporter : MonoBehaviour
 {
@@ -57,5 +57,10 @@ public class SceneTransporter : MonoBehaviour
         mountainCamera.SetActive(false);
         player.transform.position = new Vector3(-15f, 8f);
         mainCamera.SetActive(true);
+    }
+
+    public void GoToStartMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

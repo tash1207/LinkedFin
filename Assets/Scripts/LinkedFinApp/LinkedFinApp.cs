@@ -22,6 +22,7 @@ public class LinkedFinApp : MonoBehaviour
     [SerializeField] GameObject connectionsPanel;
     [SerializeField] GameObject messagesPanel;
     [SerializeField] GameObject newMessageIndicator;
+    [SerializeField] GameObject gameOverCanvas;
 
     [SerializeField] MessageSO[] allMessages;
 
@@ -58,6 +59,7 @@ public class LinkedFinApp : MonoBehaviour
         Actions.ShowFintroduceList += ShowFintroduceList;
         Actions.Fintroduce += Fintroduce;
         Actions.UpdateProfile += UpdateProfile;
+        Actions.OnGameOver += GameOver;
     }
 
     void OnDisable()
@@ -67,6 +69,7 @@ public class LinkedFinApp : MonoBehaviour
         Actions.ShowFintroduceList -= ShowFintroduceList;
         Actions.Fintroduce -= Fintroduce;
         Actions.UpdateProfile -= UpdateProfile;
+        Actions.OnGameOver -= GameOver;
     }
 
     void Update()
@@ -109,6 +112,13 @@ public class LinkedFinApp : MonoBehaviour
     {
         yourConnectionsText.text = "Connections\n(" + connections.Count + ")";
         yourMessagesText.text = "Messages\n(" + messages.Count + ")";
+    }
+
+    public void GameOver()
+    {
+        Time.timeScale = 0;
+        playerMovement.isPaused = true;
+        gameOverCanvas.SetActive(true);
     }
 
     public void AddConnection(ConnectionSO connectionSO)
