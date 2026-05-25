@@ -193,6 +193,7 @@ public class LinkedFinApp : MonoBehaviour
             {
                 MessageSO message = Resources.Load<MessageSO>("Shellow");
                 AddMessage(message);
+                CorrectFintroduction(selectedProfile);
             }
         }
         else if (selectedProfile.connName == "Otto Otterton")
@@ -201,9 +202,21 @@ public class LinkedFinApp : MonoBehaviour
             {
                 MessageSO message = Resources.Load<MessageSO>("Shellow");
                 AddMessage(message);
+                CorrectFintroduction(newConnection);
             }
         }
 
         fintroduceListCanvas.SetActive(false);
+    }
+
+    private void CorrectFintroduction(ConnectionSO connection)
+    {
+        if (connection.actionsToFire.Length > 0)
+        {
+            foreach (var actionToFire in connection.actionsToFire)
+            {
+                actionToFire.ExecuteAction();
+            }
+        }
     }
 }
