@@ -16,3 +16,6 @@ MonoBehaviour:
   jobTitle: CEO of Ubarnacle
   lookingFor: Looking for an adhesive agent
   portrait: {fileID: 5207993682876888001, guid: 89900ca20f88140de93e02083d1c569a, type: 3}
+  actionsToFire:
+  - {fileID: 11400000, guid: c2c09469fdd4f4406bdf83d00b94b1c5, type: 2}
+  - {fileID: 11400000, guid: 42a8f7482489042159694df9f245bb5d, type: 2}

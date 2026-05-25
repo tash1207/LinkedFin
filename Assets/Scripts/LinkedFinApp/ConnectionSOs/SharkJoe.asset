@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03d49976cda404cde872e054b914e229, type: 3}
-  m_Name: Dentist
+  m_Name: SharkJoe
   m_EditorClassIdentifier: Assembly-CSharp::ConnectionSO
-  connName: Dr. Emilio Wrasse
-  jobTitle: Dentist
-  lookingFor: Looking for an xray technician to join my dental practice!
-  portrait: {fileID: -3332922843975589148, guid: fec4213bebb304960881c669fb33ac49, type: 3}
-  actionsToFire:
-  - {fileID: 11400000, guid: 1bc1c5aa4e4524e2fa815bfc55cc47f6, type: 2}
-  - {fileID: 11400000, guid: a73689cb6a6484d43ac138c37e3745b5, type: 2}
+  connName: Joe Wonderful
+  jobTitle: Venture Capitalist
+  lookingFor: 
+  portrait: {fileID: -5184252869755429479, guid: 761f119c72cd346748bb247a6badcc96, type: 3}
+  actionsToFire: []

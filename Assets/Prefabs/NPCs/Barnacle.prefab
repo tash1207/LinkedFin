@@ -216,6 +216,7 @@ MonoBehaviour:
   conversation:
   - {fileID: 11400000, guid: 72073442a57884c6d8cfbded19ca8b40, type: 2}
   - {fileID: 11400000, guid: e4912b46fa0e049388bf3f56ebe71b47, type: 2}
+  - {fileID: 11400000, guid: 8d2782d8121d64e9bbcbcdd01be9fb81, type: 2}
   convNum: 0
   shouldFlip: 0
 --- !u!212 &7396065403372383455

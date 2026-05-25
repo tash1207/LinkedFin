@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b285fcca7be5c4ab68252ba11be0fa69, type: 3}
+  m_Name: SharkMark
+  m_EditorClassIdentifier: Assembly-CSharp::MessageSO
+  connection: {fileID: 11400000, guid: b2e530131fe624caa8cc17aa5d0a8619, type: 2}
+  messageText: FinMail - My good friend Whale Buffett told me he's using LinkedFin,
+    guess it's not just for kids. Let's talk.
+  actionsToFire:
+  - {fileID: 11400000, guid: a5d884066787b42db8e2abe303d7b0b0, type: 2}

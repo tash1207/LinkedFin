@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5343a1eb6124a462e819666ac02a4717, type: 3}
-  m_Name: SquidToPen
+  m_Name: SquidAdvance
   m_EditorClassIdentifier: Assembly-CSharp::SetDialogueStep
   speakerSO: {fileID: 11400000, guid: 1dadb0885c0624b3faec9428c37bc3e6, type: 2}
-  dialogueSO: {fileID: 11400000, guid: 21576fe92430341d0905d40ff94ccce2, type: 2}
+  dialogueSO: {fileID: 0}

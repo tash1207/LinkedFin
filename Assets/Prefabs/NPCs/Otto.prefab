@@ -82,6 +82,7 @@ MonoBehaviour:
   speakerSOIdentifier: {fileID: 11400000, guid: a08dd86ef9c5d489ebb2549e589f06d1, type: 2}
   conversation:
   - {fileID: 11400000, guid: d3a23ade7aa1a4d62895324d0e052ff8, type: 2}
+  - {fileID: 11400000, guid: c2d97471620874d1a854ef890edd7ab9, type: 2}
   convNum: 0
   shouldFlip: 1
 --- !u!212 &5988270313295113229

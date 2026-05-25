@@ -18,3 +18,4 @@ MonoBehaviour:
   portrait: {fileID: 4001141337533188478, guid: c38cd653722ae417bac52b8eb59d73bd, type: 3}
   actionsToFire:
   - {fileID: 11400000, guid: ebdbf5534c5ce40a7af9c66b4ec90419, type: 2}
+  - {fileID: 11400000, guid: 806fc4a8e0eae472db6270af73d54fd8, type: 2}

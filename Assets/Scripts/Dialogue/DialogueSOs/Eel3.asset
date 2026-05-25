@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38989b43b1e684fbbb8e79ec001b0324, type: 3}
-  m_Name: Whale1
+  m_Name: Eel3
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 0d0000000d000000
+  speakers: 05000000
   dialogue:
-  - Yes, I am the one and only Whale Buffett, investor in Instaclam, Shellow, and
-    Ubarnacle.
-  - Please do not ask me for money.
+  - I got a job as an xray tech at a dental office thanks to your app!
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}

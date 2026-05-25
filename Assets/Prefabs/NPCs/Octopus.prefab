@@ -215,6 +215,7 @@ MonoBehaviour:
   speakerSOIdentifier: {fileID: 11400000, guid: d08801c7295774b32b892fd14113dd09, type: 2}
   conversation:
   - {fileID: 11400000, guid: 58a77759b8c4243969c085dcb6454963, type: 2}
+  - {fileID: 11400000, guid: 6b4c10567721e4169964af77d7806c0f, type: 2}
   convNum: 0
   shouldFlip: 0
 --- !u!212 &7345676679366576874

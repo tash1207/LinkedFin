@@ -105,6 +105,22 @@ public class LinkedFinApp : MonoBehaviour
             connections.Add(connectionSO);
             GameObject newConn = Instantiate(connectionProfilePrefab, connectionsListParent);
             newConn.GetComponent<ConnectionProfile>().SetInfo(connectionSO);
+
+            if (connectionSO.connName == "Whale Buffett")
+            {
+                // Add message from Shark Mark
+                MessageSO message = Resources.Load<MessageSO>("SharkMark");
+                AddMessage(message);
+                MessageFollowUpActions(message);
+            }
+        }
+
+        if (connections.Count == 7)
+        {
+            // Add message from Shark Lori
+            MessageSO message = Resources.Load<MessageSO>("SharkLori");
+            AddMessage(message);
+            MessageFollowUpActions(message);
         }
     }
 
@@ -115,10 +131,18 @@ public class LinkedFinApp : MonoBehaviour
             noMessagesText.text = "";
             messages.Add(messageSO);
             yourMessagesText.text = "Messages\n(" + messages.Count + ")";
-            // TODO: UI for messages
             GameObject newConn = Instantiate(messageItemPrefab, messagesListParent);
             newConn.GetComponent<MessageInfo>().SetInfo(messageSO);
             Debug.Log("LinkedFin message from " + messageSO.connection.connName);
+        }
+
+        // We've finished all 3 fintroductions (+ message from SharkLori)
+        if (messages.Count == 4)
+        {
+            // Add message from Shark Joe
+            MessageSO message = Resources.Load<MessageSO>("SharkJoe");
+            AddMessage(message);
+            MessageFollowUpActions(message);
         }
     }
 
@@ -161,6 +185,7 @@ public class LinkedFinApp : MonoBehaviour
             {
                 MessageSO message = Resources.Load<MessageSO>("DentistGood");
                 AddMessage(message);
+                CorrectFintroduction(selectedProfile);
             }
         }
         else if (selectedProfile.connName == "Morey Lee")
@@ -169,6 +194,7 @@ public class LinkedFinApp : MonoBehaviour
             {
                 MessageSO message = Resources.Load<MessageSO>("DentistGood");
                 AddMessage(message);
+                CorrectFintroduction(newConnection);
             }
         }
         else if (selectedProfile.connName == "PT Barnacle")
@@ -177,6 +203,7 @@ public class LinkedFinApp : MonoBehaviour
             {
                 MessageSO message = Resources.Load<MessageSO>("Ubarnacle");
                 AddMessage(message);
+                CorrectFintroduction(selectedProfile);
             }
         }
         else if (selectedProfile.connName == "Ringo Starfish")
@@ -185,6 +212,7 @@ public class LinkedFinApp : MonoBehaviour
             {
                 MessageSO message = Resources.Load<MessageSO>("Ubarnacle");
                 AddMessage(message);
+                CorrectFintroduction(newConnection);
             }
         }
         else if (selectedProfile.connName == "Shelley")
@@ -214,6 +242,17 @@ public class LinkedFinApp : MonoBehaviour
         if (connection.actionsToFire != null && connection.actionsToFire.Length > 0)
         {
             foreach (var actionToFire in connection.actionsToFire)
+            {
+                actionToFire.ExecuteAction();
+            }
+        }
+    }
+
+    private void MessageFollowUpActions(MessageSO message)
+    {
+        if (message.actionsToFire != null && message.actionsToFire.Length > 0)
+        {
+            foreach (var actionToFire in message.actionsToFire)
             {
                 actionToFire.ExecuteAction();
             }
