@@ -10,20 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38989b43b1e684fbbb8e79ec001b0324, type: 3}
-  m_Name: Crab3
+  m_Name: Whale4
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 070000000000000007000000
+  speakers: 0d000000
   dialogue:
-  - Thank you so much for connecting me to Otto! Business is booming!
-  - Can I have one of those free pens now?
-  - Sorry, our big investor Whale Buffett just took the last one.
+  - Your app seems to have really benefited my companies. Whale Buffett at your service.
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
-  actionsToFire: []
+  actionsToFire:
+  - {fileID: 11400000, guid: 36be8ffa2af274a4ba4e8deda862c3a7, type: 2}
   requiredNPCs: []
   randomSpeakerName: 
   randomSpeakerPortrait: {fileID: 0}

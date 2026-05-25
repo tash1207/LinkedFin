@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38989b43b1e684fbbb8e79ec001b0324, type: 3}
-  m_Name: Crab3
+  m_Name: Whale3
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 070000000000000007000000
+  speakers: 0d0000000d00000000000000
   dialogue:
-  - Thank you so much for connecting me to Otto! Business is booming!
-  - Can I have one of those free pens now?
-  - Sorry, our big investor Whale Buffett just took the last one.
+  - 'I hear you''ve helped boost the value of two of my investments, Shellow and
+    Ubarnacle. This pleases me. '
+  - Now all I need is for InstaClam to turn a profit. If you can work your magic
+    there, let's talk.
+  - I'll see what I can do!
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}

@@ -15,8 +15,8 @@ MonoBehaviour:
   isAutomatic: 0
   speakers: 0d0000000d000000
   dialogue:
-  - Yes, I am the one and only Whale Buffett, investor in Instaclam, Shellow, and
-    Ubarnacle.
+  - Yes, I am the one and only Whale Buffett, investor in Shellow, Ubarnacle, and
+    InstaClam.
   - Please do not ask me for money.
   options: []
   option0: {fileID: 0}
