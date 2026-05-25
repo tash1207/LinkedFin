@@ -211,7 +211,7 @@ public class LinkedFinApp : MonoBehaviour
 
     private void CorrectFintroduction(ConnectionSO connection)
     {
-        if (connection.actionsToFire.Length > 0)
+        if (connection.actionsToFire != null && connection.actionsToFire.Length > 0)
         {
             foreach (var actionToFire in connection.actionsToFire)
             {

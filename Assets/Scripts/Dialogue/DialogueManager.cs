@@ -150,7 +150,7 @@ public class DialogueManager : MonoBehaviour
 
     public void TurnOffDialogue()
     {
-        if (currentConversation.actionsToFire.Length > 0)
+        if (currentConversation.actionsToFire != null && currentConversation.actionsToFire.Length > 0)
         {
             foreach (var actionToFire in currentConversation.actionsToFire)
             {
