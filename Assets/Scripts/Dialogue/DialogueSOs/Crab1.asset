@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: Crab1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 070000000700000000000000070000000700000000000000
+  speakers: 070000000700000007000000000000000000000007000000
   dialogue:
-  - Hi there I'm Shelley, founder of Shellow, a shell estate platform connecting
-    hermit crab buyers and renters to their new home.
-  - We have a limited supply of free pens but times are tough so we're limiting who
-    gets those.
-  - Hi Shelley, I'm Finnley! Founder of LinkedFin, a professional networking app.
+  - Hi there I'm Shelley, founder of Shellow. We're a shell estate platform connecting
+    hermit crab buyers and renters to their new homes.
   - If you're looking to work at Shellow unfortunately we're having a bit of a housing
     crisis at the moment.
-  - No one is selling and we have a ton of buyers. If you were a shell sourcer, I
-    would hire you on the spot.
-  - I'm not a shell sourcer but if you download my app, I'd be happy to connect you
-    with one!
+  - No one is selling shell homes and we have a ton of prospective buyers. If you're
+    a shell sourcer, I'll hire you on the spot.
+  - I'm not a shell sourcer but if you download my networking app I'd be happy to
+    connect you with one!
+  - By the way, can I have one of those Shellow pens?
+  - Sorry, those are in limited supply, but find me a shell sourcer and I'd be happy
+    to give you one.
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}

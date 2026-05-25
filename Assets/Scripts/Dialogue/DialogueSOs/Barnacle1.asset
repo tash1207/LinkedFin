@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Barnacle1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 0c0000000c000000000000000c000000000000000c000000
+  speakers: 0c0000000c000000000000000c000000000000000c000000000000000c000000
   dialogue:
   - Welcome to Ubarnacle, the name's PT. Are you looking for a job?
   - You might be a little small to be one of our drivers, maybe just a single passenger
@@ -22,8 +22,11 @@ MonoBehaviour:
   - 'Oh yes! Ubarnacle is a ride share service where smaller creatures hitch a ride
     on larger creatures to get where they''re going! '
   - Cool! How do they stay on?
-  - Well, we were using barnacles to attach the passengers but some of the drivers
-    complained about having barnacles attached to them.
+  - We're currently using barnacles to attach the passengers, but they're a bit difficult
+    to remove so we're looking for a new Chief Adhesive Officer.
+  - I'm probably not qualified for that role but I made an app that could help you
+    find the right match.
+  - I'll try anything at this point. Thanks, kid.
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}
@@ -31,6 +34,7 @@ MonoBehaviour:
   option3: {fileID: 0}
   actionsToFire:
   - {fileID: 11400000, guid: cab85830dc23f4abb990af9a5cdb993b, type: 2}
+  - {fileID: 11400000, guid: c2c09469fdd4f4406bdf83d00b94b1c5, type: 2}
   requiredNPCs: []
   randomSpeakerName: 
   randomSpeakerPortrait: {fileID: 0}

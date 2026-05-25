@@ -10,23 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38989b43b1e684fbbb8e79ec001b0324, type: 3}
-  m_Name: Squid1
+  m_Name: Barnacle2
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 00000000080000000000000008000000
+  speakers: 0c0000000c000000
   dialogue:
-  - What are you doing over here in the corner?
-  - I'm hiding from embarassment.
-  - I was up late working on my graphic design portfolio and I ran out of ink.
-  - I really want to work at InstaClam but they asked me to demo my skills live and
-    I couldn't.
+  - Hey kiddo! I found some good drivers on LinkedFin. Still looking for that elusive
+    Chief Adhesive Officer.
+  - Let me know if you know anyone who fits the bill.
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
-  actionsToFire:
-  - {fileID: 11400000, guid: 0d1448a92ed824fec951473f5b898339, type: 2}
+  actionsToFire: []
   requiredNPCs: []
   randomSpeakerName: 
   randomSpeakerPortrait: {fileID: 0}

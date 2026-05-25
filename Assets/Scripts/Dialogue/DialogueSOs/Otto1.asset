@@ -15,7 +15,7 @@ MonoBehaviour:
   isAutomatic: 0
   speakers: 06000000
   dialogue:
-  - Hi I'm Otto!
+  - Hi I'm Otto! Would you like to see my shell collection?
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}

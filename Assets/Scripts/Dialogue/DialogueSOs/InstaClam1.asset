@@ -15,7 +15,8 @@ MonoBehaviour:
   isAutomatic: 0
   speakers: 0e000000
   dialogue:
-  - You're not on the list.
+  - The shellfie booth is closed for today. We're busy interviewing graphic designers
+    for our team.
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}

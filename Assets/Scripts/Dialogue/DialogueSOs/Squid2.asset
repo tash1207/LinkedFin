@@ -16,7 +16,8 @@ MonoBehaviour:
   speakers: 00000000080000000000000008000000
   dialogue:
   - How's it going in the corner?
-  - I really want a job at InstaClam but unfortunately I'm all out of ink.
+  - I really want a graphic designer job at InstaClam but unfortunately I'm all out
+    of ink for the assessment.
   - Would this pen help?
   - Yes, thank you! Now I can show them my graphic design abilities!
   options: []

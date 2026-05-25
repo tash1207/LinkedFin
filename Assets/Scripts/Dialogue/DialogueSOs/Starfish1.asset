@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: Starfish1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 0000000009000000
+  speakers: 00000000090000000900000000000000
   dialogue:
   - How's it hanging?
-  - Oh, you know.
+  - Oh, you know. Just came up here for some fresh air.
+  - I brought my resume to a few booths downstairs but so far nothing's stuck. It's
+    all a bit overwhelming.
+  - If the chaos downstairs is too much, you should try applying through LinkedFin!
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}

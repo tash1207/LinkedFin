@@ -212,9 +212,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33865c942c5124081adac253067c9862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  speakerSOIdentifier: {fileID: 11400000, guid: 35b8d472d8d4b49babb797b5eb65bd91, type: 2}
+  speakerSOIdentifier: {fileID: 11400000, guid: b1130c053e33449d9911329aaf6f93cd, type: 2}
   conversation:
   - {fileID: 11400000, guid: 72073442a57884c6d8cfbded19ca8b40, type: 2}
+  - {fileID: 11400000, guid: e4912b46fa0e049388bf3f56ebe71b47, type: 2}
   convNum: 0
   shouldFlip: 0
 --- !u!212 &7396065403372383455
