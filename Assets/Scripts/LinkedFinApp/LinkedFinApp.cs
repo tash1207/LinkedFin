@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using TMPro;
-using UnityEditor.MemoryProfiler;
 using UnityEngine;
 
 public class LinkedFinApp : MonoBehaviour
@@ -19,6 +18,10 @@ public class LinkedFinApp : MonoBehaviour
     [SerializeField] Transform fintroduceListParent;
     [SerializeField] TMP_Text fintroduceHeaderText;
     [SerializeField] GameObject fintroductionListItemPrefab;
+
+    [SerializeField] GameObject connectionsPanel;
+    [SerializeField] GameObject messagesPanel;
+    [SerializeField] GameObject newMessageIndicator;
 
     [SerializeField] MessageSO[] allMessages;
 
@@ -64,6 +67,14 @@ public class LinkedFinApp : MonoBehaviour
         Actions.ShowFintroduceList -= ShowFintroduceList;
         Actions.Fintroduce -= Fintroduce;
         Actions.UpdateProfile -= UpdateProfile;
+    }
+
+    void Update()
+    {
+        if (appCanvas.activeSelf && messagesPanel.activeSelf)
+        {
+            newMessageIndicator.SetActive(false);
+        }
     }
 
     public void ToggleApp()
@@ -131,6 +142,7 @@ public class LinkedFinApp : MonoBehaviour
     {
         if (!messages.Contains(messageSO))
         {
+            newMessageIndicator.SetActive(true);
             noMessagesText.text = "";
             messages.Add(messageSO);
             yourMessagesText.text = "Messages\n(" + messages.Count + ")";
