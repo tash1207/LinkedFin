@@ -10,19 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38989b43b1e684fbbb8e79ec001b0324, type: 3}
-  m_Name: Octopus4
+  m_Name: Catfish2
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 0e000000
+  speakers: 0f000000
   dialogue:
-  - Come on in, dude.
+  - VIPs only.
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
-  actionsToFire:
-  - {fileID: 11400000, guid: 6cbf8b6bf937f43b68add0c091a21965, type: 2}
+  actionsToFire: []
   requiredNPCs: []
   randomSpeakerName: 
   randomSpeakerPortrait: {fileID: 0}

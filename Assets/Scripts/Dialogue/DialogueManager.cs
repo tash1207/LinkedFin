@@ -181,6 +181,7 @@ public enum DialogueSpeakers
     Barnacle,
     Whale,
     Octopus,
+    Catfish,
     Random,
     Branch
 };

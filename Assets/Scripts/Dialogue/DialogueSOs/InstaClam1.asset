@@ -10,25 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38989b43b1e684fbbb8e79ec001b0324, type: 3}
-  m_Name: Octopus3
+  m_Name: InstaClam1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 0e000000000000000e000000000000000e000000
+  speakers: 0e000000
   dialogue:
-  - VIPs ONL-
-  - Yes, yes, I know. But now I've got something to sweeten the deal.
-  - Oh?
-  - You seem pretty stressed in this job. Have you ever tried seaweed before?
-  - Now we're talking. Come on in, pal.
+  - You're not on the list.
   options: []
   option0: {fileID: 0}
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
-  actionsToFire:
-  - {fileID: 11400000, guid: 9419edc133be04095bfbef07b4e32da6, type: 2}
-  - {fileID: 11400000, guid: 90e44db4aa94c4afd884f57223ceb7b4, type: 2}
-  - {fileID: 11400000, guid: 6cbf8b6bf937f43b68add0c091a21965, type: 2}
+  actionsToFire: []
   requiredNPCs: []
   randomSpeakerName: 
   randomSpeakerPortrait: {fileID: 0}

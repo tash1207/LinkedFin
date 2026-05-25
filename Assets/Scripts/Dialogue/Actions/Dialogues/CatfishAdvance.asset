@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5343a1eb6124a462e819666ac02a4717, type: 3}
-  m_Name: OctopusToSeaweed
+  m_Name: CatfishAdvance
   m_EditorClassIdentifier: Assembly-CSharp::SetDialogueStep
-  speakerSO: {fileID: 11400000, guid: d08801c7295774b32b892fd14113dd09, type: 2}
-  dialogueSO: {fileID: 11400000, guid: 48779c8e2ac8d414eb69a42b6a994f5f, type: 2}
+  speakerSO: {fileID: 11400000, guid: e389e3c620cb04ca5a7fac6b20370f62, type: 2}
+  dialogueSO: {fileID: 0}
