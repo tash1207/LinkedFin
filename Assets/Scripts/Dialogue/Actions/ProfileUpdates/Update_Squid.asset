@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4444b56df3b241eeb899de2d7c1b8f3, type: 3}
+  m_Name: Update_Squid
+  m_EditorClassIdentifier: Assembly-CSharp::UpdateProfileAction
+  connectionSO: {fileID: 11400000, guid: 4b8cd267ac06347de9e737676db952a7, type: 2}
+  newConnectionSO: {fileID: 11400000, guid: 5d42a7aa9d9a2467b92c8ce0a96e3540, type: 2}

@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03d49976cda404cde872e054b914e229, type: 3}
-  m_Name: Whale
+  m_Name: Barnacle_Hired
   m_EditorClassIdentifier: Assembly-CSharp::ConnectionSO
-  connName: Whale Buffett
-  jobTitle: Whalionaire
-  lookingFor: 
-  portrait: {fileID: -7896656059444677529, guid: ea9bb1b6fdfd648aaa4e44ace197bb92, type: 3}
-  actionsToFire: []
+  connName: PT Barnacle
+  jobTitle: CEO of Ubarnacle
+  lookingFor: Hiring drivers!
+  portrait: {fileID: 5207993682876888001, guid: 89900ca20f88140de93e02083d1c569a, type: 3}
+  actionsToFire:
+  - {fileID: 11400000, guid: c2c09469fdd4f4406bdf83d00b94b1c5, type: 2}
+  - {fileID: 11400000, guid: 42a8f7482489042159694df9f245bb5d, type: 2}
   hideFintroduce: 1

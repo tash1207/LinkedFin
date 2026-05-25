@@ -719,6 +719,7 @@ MonoBehaviour:
   jobText: {fileID: 2203958585979404200}
   lookingForText: {fileID: 5668095861993382930}
   portrait: {fileID: 1023452642489396080}
+  fintroduceButton: {fileID: 8322571438222440141}
   profile: {fileID: 0}
 --- !u!1 &7269093456281460834
 GameObject:

@@ -16,3 +16,5 @@ MonoBehaviour:
   jobTitle: Graphic Designer
   lookingFor: Open to work
   portrait: {fileID: 2594991499286759316, guid: 65354460ee78f4973b616ad8d40a7e91, type: 3}
+  actionsToFire: []
+  hideFintroduce: 1

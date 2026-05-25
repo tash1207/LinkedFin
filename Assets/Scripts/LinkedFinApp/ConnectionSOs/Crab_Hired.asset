@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03d49976cda404cde872e054b914e229, type: 3}
-  m_Name: Whale
+  m_Name: Crab_Hired
   m_EditorClassIdentifier: Assembly-CSharp::ConnectionSO
-  connName: Whale Buffett
-  jobTitle: Whalionaire
-  lookingFor: 
-  portrait: {fileID: -7896656059444677529, guid: ea9bb1b6fdfd648aaa4e44ace197bb92, type: 3}
-  actionsToFire: []
+  connName: Shelley
+  jobTitle: CEO of Shellow
+  lookingFor: Let us help you find your new home!
+  portrait: {fileID: 4001141337533188478, guid: c38cd653722ae417bac52b8eb59d73bd, type: 3}
+  actionsToFire:
+  - {fileID: 11400000, guid: ebdbf5534c5ce40a7af9c66b4ec90419, type: 2}
+  - {fileID: 11400000, guid: 806fc4a8e0eae472db6270af73d54fd8, type: 2}
   hideFintroduce: 1

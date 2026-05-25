@@ -16,3 +16,5 @@ MonoBehaviour:
   jobTitle: Audio Engineer
   lookingFor: I made the music you hear right now
   portrait: {fileID: -4973193515241522303, guid: 72d8c868e76a042cca469d74aba50583, type: 3}
+  actionsToFire: []
+  hideFintroduce: 1

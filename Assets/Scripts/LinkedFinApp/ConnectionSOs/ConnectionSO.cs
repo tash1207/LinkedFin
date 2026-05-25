@@ -10,4 +10,6 @@ public class ConnectionSO : ScriptableObject
 
     [Header("Correct Fintroduction Outcomes")]
     public DialogueAction[] actionsToFire;
+
+    public bool hideFintroduce;
 }

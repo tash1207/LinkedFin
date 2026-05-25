@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor.MemoryProfiler;
 using UnityEngine;
 
 public class LinkedFinApp : MonoBehaviour
@@ -53,6 +54,7 @@ public class LinkedFinApp : MonoBehaviour
         Actions.ToggleFinApp += ToggleApp;
         Actions.ShowFintroduceList += ShowFintroduceList;
         Actions.Fintroduce += Fintroduce;
+        Actions.UpdateProfile += UpdateProfile;
     }
 
     void OnDisable()
@@ -61,6 +63,7 @@ public class LinkedFinApp : MonoBehaviour
         Actions.ToggleFinApp += ToggleApp;
         Actions.ShowFintroduceList -= ShowFintroduceList;
         Actions.Fintroduce -= Fintroduce;
+        Actions.UpdateProfile -= UpdateProfile;
     }
 
     public void ToggleApp()
@@ -151,6 +154,25 @@ public class LinkedFinApp : MonoBehaviour
         return connections;
     }
 
+    public void UpdateProfile(ConnectionSO oldConnection, ConnectionSO newConnection)
+    {
+        foreach (Transform child in connectionsListParent)
+        {
+            if (child.gameObject.GetComponent<ConnectionProfile>().profile == oldConnection)
+            {
+                child.gameObject.GetComponent<ConnectionProfile>().SetInfo(newConnection);
+            }
+        }
+        for (int i = 0; i < connections.Count; i++)
+        {
+            if (connections[i] == oldConnection)
+            {
+                connections[i] = newConnection;
+                return;
+            }
+        }
+    }
+
     public void ShowFintroduceList(ConnectionSO currentProfile)
     {
         selectedProfile = currentProfile;
@@ -164,7 +186,7 @@ public class LinkedFinApp : MonoBehaviour
         // Instantiate list of connection names minus current profile
         foreach (ConnectionSO conn in connections)
         {
-            if (conn != currentProfile)
+            if (conn != currentProfile && !conn.hideFintroduce)
             {
                 GameObject newListItem = Instantiate(fintroductionListItemPrefab, fintroduceListParent);
                 newListItem.GetComponent<FintroduceListItem>().SetInfo(conn);

@@ -19,3 +19,6 @@ MonoBehaviour:
   actionsToFire:
   - {fileID: 11400000, guid: c2c09469fdd4f4406bdf83d00b94b1c5, type: 2}
   - {fileID: 11400000, guid: 42a8f7482489042159694df9f245bb5d, type: 2}
+  - {fileID: 11400000, guid: 4dec9f601c95b4e44a276d0a2c228fcf, type: 2}
+  - {fileID: 11400000, guid: c7583dad2eb814757a9e570123164bf9, type: 2}
+  hideFintroduce: 0

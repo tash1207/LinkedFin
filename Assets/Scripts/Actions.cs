@@ -17,4 +17,5 @@ public static class Actions
     public static Action ToggleFinApp;
     public static Action<ConnectionSO> ShowFintroduceList;
     public static Action<ConnectionSO> Fintroduce;
+    public static Action<ConnectionSO, ConnectionSO> UpdateProfile;
 }
