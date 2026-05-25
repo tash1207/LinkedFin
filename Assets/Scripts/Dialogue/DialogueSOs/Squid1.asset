@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Squid1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
   isAutomatic: 0
-  speakers: 00000000080000000000000008000000
+  speakers: 00000000080000000800000008000000
   dialogue:
   - What are you doing over here in the corner?
   - I'm hiding from embarassment.
